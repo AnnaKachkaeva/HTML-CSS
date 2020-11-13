@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 7</title>
+    <style>
+        .center {
+            text-align: center;
+            position: absolute;
+            left: 48%;
+            top: 48%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .table{
+            display: grid;
+            grid-template-areas: "today first secound third fourth fifth six seventh";
+            grid-template-columns:  100px 100px 100px 100px 100px 100px 100px 100px;
+            
+        }
+        .day{
+            display: grid;
+            grid-template-rows: 15px 18px 40px 15px 25px 25px;
+            row-gap:4px;
+        }
+        .name{
+            text-justify: center;
+            font-weight: 600;
+        }
+        .date, .atnight, .desc{
+            font-size: 12px;
+            color: rgb(73, 73, 73);
+        }
+        img{
+            height: 45px;
+        }
+        .today div{
+            display: flex;
+            justify-content: start;
+            text-align:left;
+        }
+        .namet{
+            display: grid;
+            grid-template-columns:  190px 70px 80px ;
+            line-height: 30px;
+        }
+        .this{
+           font-size: x-large;
+           font-weight: 600;
+        }
+        .for10{
+            text-align: center;
+           font-size: small;
+           background-color:rgb(197, 197, 197);
+           border-radius: 6px;
+        }
+        .formonth{
+            margin-left: 6px;
+            text-align: center;
+           font-size: small;
+           background-color:rgb(197, 197, 197);
+           border-radius: 6px;
+        }
+        hr{
+            height: 10px;
+            border: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <div class="namet">
+            <div class="this">Weather for week</div>         
+            <div class="for10">for 10 days</div>         
+            <div class="formonth">for month</div>
+        </div>
+        
+        <hr>
+        
+        <div class="table">
+            <div class="today day">
+                <div class="name">Today</div>
+                <div class="date">30 oct</div>
+                <div class="photo"><img src="/pr4/rainbow.svg" alt=""></div>
+                <div class="degree">+14°C</div>
+                <div class="atnight">+4°C at night</div>
+                <div class="desc">rainbow expected </div>
+            </div>
+            <div class="first">
+                <div class="today day">
+                    <div class="name">Friday</div>
+                    <div class="date">31 oct</div>
+                    <div class="photo"><img src="/pr4/cloud.svg" alt=""></div>
+                    <div class="degree">+9°C</div>
+                    <div class="atnight">+0°C at night</div>
+                    <div class="desc">expected rain</div>
+                </div>
+            </div>
+            <div class="secound">
+                <div class="today day">
+                    <div class="name">Saturday</div>
+                    <div class="date">1 nov</div>
+                    <div class="photo"><img src="/pr4/clouds-and-sun.svg" alt=""></div>
+                    <div class="degree">+2°C</div>
+                    <div class="atnight">-3°C at night</div>
+                    <div class="desc">mostly cloudy</div>
+                </div>
+            </div>
+            <div class="third">
+                <div class="today day">
+                    <div class="name">Sunday</div>
+                    <div class="date">2 nov</div>
+                    <div class="photo"><img src="/pr4/clouds.svg" alt=""></div>
+                    <div class="degree">+7°C</div>
+                    <div class="atnight">+2°C at night</div>
+                    <div class="desc">expected snow</div>
+                </div>
+            </div>
+            <div class="fourth">
+                <div class="today day">
+                    <div class="name">Monday</div>
+                    <div class="date">3 nov</div>
+                    <div class="photo"><img src="/pr4/sand-storm.svg" alt=""></div>
+                    <div class="degree">+14°C</div>
+                    <div class="atnight">+5°C at night</div>
+                    <div class="desc"> sand-storm</div>
+                </div>
+            </div>
+            <div class="ffith">
+                <div class="today day">
+                    <div class="name">Tuesday</div>
+                    <div class="date">4 nov</div>
+                    <div class="photo"><img src="/pr4/sun.svg" alt=""></div>
+                    <div class="degree">+10°C</div>
+                    <div class="atnight">+0°C at night</div>
+                    <div class="desc">sunny</div>
+                </div>
+            </div>
+            <div class="six">
+                <div class="today day">
+                    <div class="name">Thusday
+                    </div>
+                    <div class="date">5 nov</div>
+                    <div class="photo"><img src="/pr4/sun.svg" alt=""></div>
+                    <div class="degree">+9°C</div>
+                    <div class="atnight">+4°C at night</div>
+                    <div class="desc">sunny</div>
+                </div>
+            </div>
+            <div class="seventh">
+                <div class="today day">
+                    <div class="name">Friday</div>
+                    <div class="date">6 nov</div>
+                    <div class="photo"><img src="/pr4/clouds-and-sun.svg" alt=""></div>
+                    <div class="degree">+1°C</div>
+                    <div class="atnight">-8°C at night</div>
+                    <div class="desc">mostly cloudy</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

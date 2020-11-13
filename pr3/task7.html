@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 7</title>
+    <style>
+      input:valid + span:after {
+      content: url(/pr3/bulb.svg);
+      padding-right: 5px;
+      }
+      input:invalid + span:after {
+      content: url(/pr3/shield.svg);
+      padding-right: 5px;
+      }
+      span{
+        display:inline-block; 
+        width:12px;
+      }
+      div{
+        margin-bottom: 8px;
+      }
+      html{
+        min-height: 100%;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background: linear-gradient( rgb(181, 209, 214), rgb(188, 206, 174) );
+      }
+    </style>
+</head>
+<body>
+
+    <form action="0#" method=”post”> 
+        <div> 
+          <label for=”first_name”>First Name</label>
+          <input  type=”text”  placeholder="Anna" pattern="Anna" required> <span></span>
+        </div> 
+
+
+        <div> 
+          <label for=”first_name”>Your age</label>
+          <input type="number" placeholder="21" pattern="21" min="1" max="25" required> <span></span>
+        </div> 
+
+
+        <div> 
+          <label for=”first_name”>Working or stadying?</label>
+          <input type=”text”  placeholder="stady" pattern="stady" required> <span></span>
+        </div> 
+        <div> 
+          <label for=”first_name”>How many free hours per day do you have?</label>
+          <input type=”text” placeholder="3-4" pattern="3||4" required> <span></span>
+        </div> 
+        <div> 
+          <label for=”first_name”>What are you doing not busy?</label>
+          <input type=”text” placeholder="eating" pattern="eating"> 
+        </div> 
+        <input type="submit" value="Submit">
+      </form>
+    
+</body>
+</html>

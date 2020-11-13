@@ -1,0 +1,19 @@
+
+html{
+    min-height: 100%;
+    background: linear-gradient(to bottom, rgb(213, 248, 233),  rgb(161, 132, 141));
+}
+
+h1 { 
+ font-size: 150%; /*задание размера*/
+ color:rgb(89, 0, 255);/*задание цвета*/
+}
+h2 { 
+ text-align:center;
+ font-family: Verdana, Arial, Helvetica, sans-serif;/*задание разшрифтамера*/
+ color: yellowgreen; 
+}
+h3 {  
+    font-family: monospace;
+    color: palevioletred;
+}

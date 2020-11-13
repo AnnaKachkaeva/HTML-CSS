@@ -1,0 +1,14 @@
+html{
+    min-height: 100%;
+    color: rgb(255, 246, 228);
+    background: linear-gradient( #666666, #292928);
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.txt{
+    text-align:center;
+    font-size: medium;
+    
+}

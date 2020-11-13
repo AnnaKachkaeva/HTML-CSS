@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 8</title>
+    <style>
+        .showbox.slideright:hover{
+            cursor: pointer;
+            transform: translate(3em,0);
+        }
+        .showbox{
+        float: left;
+        margin: 4em 1em;
+        width: 100px;
+        height: 60px;
+        border: 2px solid rgb(118, 82, 165);
+        background-color: #fff;
+        line-height: 60px;
+        border-radius: 6px;
+        text-align: center;
+        transition: 1s ease-in-out;
+        }
+        .showbox.rotate:hover{
+            cursor: pointer;
+            transform: rotate(30deg);
+        }
+        .showbox.slideleft:hover{
+            cursor: pointer;
+            transform: translate(-3em,1em);
+        }
+        .showbox.scale:hover{
+            cursor: pointer;
+            transform: scale(2);
+        }
+        .showbox.scalesmall:hover{
+            cursor: pointer;
+            transform: scale(0.5);
+        }
+        .center{
+            margin-left: 25vw;
+            margin-top: 30vh;
+        }
+    </style>
+</head>
+<body class="center">
+    <div class="showbox slideright">box 1</div>
+    <div class="showbox rotate" style="border-color: rgb(248, 131, 131);">box 2</div>
+    <div class="showbox slideleft">box 3</div>
+    <div class="showbox scale">box 4</div>
+    <div class="showbox scalesmall">box 4</div>
+</body>
+</html>
+
+
+
+
+
+
+
+

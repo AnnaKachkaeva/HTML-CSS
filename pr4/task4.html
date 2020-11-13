@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>task 4</title>
+  <style>
+   .b {
+    width: 150px; /* Ширина */
+    height: 50px; /* Высота */
+    border: 4px solid #000; /* Параметры рамки */
+    margin-bottom: 10px; /* Отступ снизу */
+    position: relative; /* Относительное позиционирование */
+   }
+   .b::before, .b::after {
+    content: '';
+    position: absolute;
+   }
+   .b::after { /* Добавляем контакт справа */
+    width: 10px;
+    height: 20px;
+    background: #000;
+    right: -10px; 
+    top: 15px;
+   }
+   .b::before { height: 100%; }
+   .low::before { /* Красная батарейка */
+    width: 33%;
+    background: #ED1C24;
+   }
+   .medium::before { /* Жёлтая батарейка */
+    width: 66%;
+    background: #FFC60B;
+   }
+   .high::before { /* Зелёная батарейка */
+    width: 100%;
+    background: #00A055;
+   }
+   .center{
+       margin-left: 40vw;
+       margin-top: 30vh;
+   }
+  </style>
+ </head>
+ <body class="center">
+         <div class="b low"></div>
+         <div class="b medium"></div>
+         <div class="b high"></div>
+ </body>
+</html>

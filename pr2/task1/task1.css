@@ -1,0 +1,65 @@
+html{
+    min-height: 100%;
+    border: 0;
+    padding: 0;
+}
+.first{
+    border: none;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top:0px; 
+    left:0px; 
+    right:0px;
+    background-color: rgb(68, 52, 79);
+}
+.second{
+    border: none;
+    position: absolute;
+    top:60px; 
+    left:0px; 
+    bottom: 0px;
+    height: calc(100% - 60px);
+    width: 100px;
+    background-color:rgb(152, 166, 212);
+}
+.third{
+    border: none;
+    position: absolute;
+    top:60px;
+    left: 100px;
+    height: calc(100% - 60px);
+    width: calc(100% - 100px);
+    background-color: rgb(211, 252, 213);
+}
+
+
+h1 { 
+    text-align:center;
+    font-size: 150%; /*задание размера*/
+    color: rgb(225, 218, 231);
+}
+.body{
+    display: grid;
+}
+
+.but{
+    text-align:center;
+    border:  none;
+    background: transparent;
+    font-size: 250%;
+}
+h2 { 
+    text-align:center;
+    font-size: 150%;
+}
+
+.but2 {display: none; }
+.but3 {display: none; }
+button:hover .but1{ display: none; }
+button:hover .but2 { display: inline; }
+button:hover .bu3{ display: none; }
+button:active .but1{ display: none; }
+button:active .but2 { display: none; }
+button:active .but3 { display: inline; }
+

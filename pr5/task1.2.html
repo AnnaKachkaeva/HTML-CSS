@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1.2</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        input{
+            text-align: center; 
+        }
+
+        button {
+            height: 50px;
+            width: 50px;
+            margin: 0;
+            font-size: 100%;
+            border-radius: 100px;
+            font-family: monospace;
+            background-color: rgb(232, 194, 253);
+        }
+
+        button:hover {
+            background-color: rgba(235, 236, 236, 0);
+        }
+
+        body {
+            background: linear-gradient(to top left, powderblue, pink);
+        }
+        input{
+            width: 96px;
+            border-radius: 6px;
+            border: 1px solid rgb(114, 114, 114);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            margin-left: 30vw;
+            margin-top: 35vh;
+        }
+
+    </style>
+    <script>
+        function foo(operation) { //функция, которую будем вызывать
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            if(operation=='plus'){
+                alert(a + b);
+            }
+            if(operation=='minus'){
+                alert(a - b);
+            }
+            if(operation=='mult'){
+                alert(a * b);
+            }
+            if(operation=='divide'){
+                alert(a / b);
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <input id="a" type="number" placeholder="a" width="40px">
+    <input id="b" type="number" placeholder="b" width="40px">
+
+    <br>
+
+    <button onclick="foo('plus')"> + </button>
+    <!--кнопка-->
+
+    <button onclick="foo('minus')"> - </button>
+    <!--кнопка-->
+
+    <button onclick="foo('mult')"> * </button>
+    <!--кнопка-->
+
+    <button onclick="foo('divide')"> / </button>
+    <!--кнопка-->
+</div>
+    
+    
+</body>
+</html>

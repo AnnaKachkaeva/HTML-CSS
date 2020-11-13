@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+    <style>
+        body {
+            width: 800px;
+            padding: 50px;
+            font-size: 50px;
+        }
+
+        .wrapper {
+            font-style: italic;
+        }
+
+        .root {
+            display: inline-block;
+            vertical-align: middle;
+            border-top: 2px solid;
+            border-left: 2px solid;
+            transform: skew(-15deg);
+            transform-origin: bottom left;
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .root:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            height: 40%;
+            width: 9px;
+            left: -11px;
+            border-top: 2px solid;
+            border-right: 2px solid;
+            transform: skew(30deg);
+            transform-origin: bottom right;
+        }
+
+        .radicand {
+            display: inline-block;
+            padding-left: 3px;
+            transform: skew(15deg);
+        }
+        .center{
+            margin-left: 40vw;
+            margin-top: 30vh;
+        }
+    </style>
+</head>
+<body>
+    <body class="center">
+		<div class="wrapper">	
+			<span class="root">
+				<span class="radicand">
+					<var>20206666666</var>
+				</span>
+			</span>	
+		</div>
+	</body>
+    
+</body>
+</html>

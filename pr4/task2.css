@@ -1,0 +1,39 @@
+
+ol {
+    text-align: left;
+    text-align: center;
+    position: absolute;
+    left: 48%;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.line-throught{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+}
+.wavy{
+    text-decoration-style: wavy;
+}
+
+#first{
+    color: rgb(204, 189, 29);
+}
+#sec{
+    color: rgb(73, 39, 105);
+}
+#third{
+    color: rgb(45, 114, 91);
+}
+#for{
+    color: rgb(66, 177, 66);
+}
+#fif{
+    color: rgb(134, 108, 75);
+}

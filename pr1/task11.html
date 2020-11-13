@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task11.css">
+    
+    <script>//скрипт
+        function clickHandler(user) {//функция, которую будем вызывать,
+        alert(document.getElementById('user').value+ ", ты умничка! Я горжусь тобой🥰");
+      }
+      </script>
+
+    <meta charset="UTF-8"><!--кодировка-->
+    <title>task 11</title><!--заголовок-->
+</head>
+
+<body><!-- предназначен для хранения содержания веб-страницы, отображаемого в окне браузера.-->
+    <div class="box">
+        <h1>Для получения похвалы, пожалуйста, заполни анкету</h1>
+        <form id="data"></form>
+        <p class="pole"><input type="text" placeholder="Как к тебе обращаться?" id="user" name="user" form="data"></p>
+
+        <hr></hr>
+
+        <p class="center"> <b><i>Какое у вас состояние разума?</i></b></p>
+        <div class="razum">
+            <p><input name="dzen" type="radio" value="nedzen"> не нирвана</p>
+            <p><input name="dzen" type="radio" value="dzen"> нирвана</p>
+            <p><input name="dzen" type="radio" value="pdzen" checked> рвана</p>
+        </div>
+
+        <hr></hr>
+        
+        <p class="center"> <b><i>Какой сейчас год?</i></b></p>
+        <div class="god">
+            <p><input type="checkbox" name="a" value="1417"> 2007</p>
+            <p><input type="checkbox" name="a" value="1680" checked> 2020</p>
+            <p><input type="checkbox" name="a" value="1883" checked> 3020</p>
+            <p><input type="checkbox" name="a" value="1934"> не знаю</p>
+            <p><input type="checkbox" name="a" value="2010"> лучший</p>
+        </div>
+
+        <hr></hr>
+        <p class="pole"><input placeholder="Ваш e-mail" name="user" form="data"></p>
+        <p class="pole"><input placeholder="Ваш телефон" name="user" form="data"></p>
+        <p class="pole"><input placeholder="Придумайте пароль" name="user" form="data"></p>
+        <p class="center"><button onclick="clickHandler()">Получить </button></p>        
+    </div>
+</body>
+</html><!--конец документа-->
+<!-- -->
+
