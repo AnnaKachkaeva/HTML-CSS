@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 8</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        input{
+            text-align: center; 
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color: rgb(122, 105, 129);        }
+        input{
+            width: 64px;
+            border-radius: 6px;
+            border: 1px solid rgb(114, 114, 114);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            margin-left: 30vw;
+            margin-top: 30vh;
+        }
+
+    </style>
+    <script>
+        function foo() { //функция, которую будем вызывать
+        var obj = {
+            a: 1,
+            b: 2,
+            c: 3
+        };
+
+        alert(`[${obj['c']}]`);
+        alert('.'+obj.c);
+        }
+
+        function foo1(){
+        var obj = {
+            Коля: '1000',
+            Вася: '500',
+            Петя: '200'
+        };
+
+        alert(`Петя:${obj['Петя']}\nКоля:${obj['Коля']}`)
+
+        }
+
+        function foo2(){
+        var d = new Date();
+        var n = d.getDay();
+
+        var obj = {
+            1: 'Monday',
+            2: 'Tuesday',
+            3: 'Wednesday',
+            4: 'Thusday',
+            5: 'Friday',
+            6: 'Saturday',
+            0: 'Sunday'
+        };
+
+        alert(`today: ${obj[n]}`)
+
+        }
+        
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <button onclick="foo()">show 8.1 </button>
+        <br>
+    <button onclick="foo1()"> show 8.2</button>
+        <br>
+    <button onclick="foo2()"> show 8.3</button>
+        <br>
+    <button onclick="foo2()"> show 8.4</button>
+
+</div>
+    
+    
+</body>
+</html>

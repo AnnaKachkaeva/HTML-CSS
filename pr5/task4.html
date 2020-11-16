@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4</title>
+    <script>
+        function myFunction() {
+            var str = 'abcdef'
+            var num = '12345'
+            document.getElementById("a").innerHTML = 'str[0]:' + str[0];
+            document.getElementById("b").innerHTML = 'str[2]:' + str[0];
+            document.getElementById("c").innerHTML = 'str[4]:' + str[0];
+            document.getElementById("first").innerHTML = 'mult' + (num[0]*num[1]*num[2]*num[3]*num[4]);
+        }
+    </script>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .center{
+            font-size: xx-large;
+            margin-left: 43vw;
+            margin-top: 43vh;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body onload="myFunction()">
+
+    <p id='a'></p>
+    <p id='b'></p>
+    <p id='c'></p>
+    <br>
+    <p id="first"></p>
+    <p id="sec"></p>
+    <p id="third"></p>
+
+    
+</body>
+</html>

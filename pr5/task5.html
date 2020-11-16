@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 5</title>
+    <script>
+        function amountOfSeconds() {
+            var min = 60;
+            var hour = min*60;
+            var day = hour*24;
+            var month = day*30;
+            var answer = 'hour: ' + hour + 'seconds\n' + 'day: ' + day + 'seconds\n' + 'month: ' + month + 'seconds';
+
+            alert(answer);
+        }
+        function date(){
+            var now = new Date();
+            var hour = now.getHours();
+            var min = now.getMinutes();
+            var sec = now.getSeconds();
+
+            alert(hour +':'+min+':'+sec);
+        }
+        function sqr(){
+            var num = prompt('insert the number:');
+            num = num*num;
+            alert('the answer is: '+num);
+        }
+    </script>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .center{
+            font-size: xx-large;
+            margin-left: 35vw;
+            margin-top: 35vh;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        button{
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+        button:hover{
+            background-color: rgb(71, 71, 71);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+        <button onclick="amountOfSeconds()">amount of seconds</button>
+        <br>
+        <button onclick="date()">date</button>
+        <br>
+        <button onclick="sqr()">square</button>
+    </div>
+
+
+
+</body>
+</html>

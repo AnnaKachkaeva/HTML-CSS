@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 1.5</title>
+    <title>task 6</title>
     <style>
         html {
             min-height: 100%;
@@ -19,22 +19,20 @@
         }
 
         button {
-            height: 50px;
-            width: 210px;
-            margin: 0;
-            font-size: 100%;
-            border-radius: 100px;
-            font-family: monospace;
-            background-color: rgb(232, 194, 253);
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
         }
 
         button:hover {
-            background-color: rgba(235, 236, 236, 0);
+            background-color: rgba(235, 236, 236, 0.486);
         }
 
         body {
-            background: linear-gradient(to top left, powderblue, pink);
-        }
+            background-color: gray;        }
         input{
             width: 64px;
             border-radius: 6px;
@@ -53,13 +51,21 @@
 
     </style>
     <script>
-        function foo() { //функция, которую будем вызывать
-            var a = 17;
-            var b = 10;
-            var c = a - b;
-            var d = 7;
-            var result = d + c;        
-            alert(result);
+        function foo1() { //функция, которую будем вызывать
+            var num = 47;
+            num+=7;
+            num-=18;
+            num*=10;
+            num/=15;
+            alert(num);
+        }
+        function foo2() { //функция, которую будем вызывать
+            var num = 10;
+            num++;
+            num++;
+            num--;
+            num/=15;
+            alert(num);
         }
 
     </script>
@@ -69,7 +75,9 @@
 
     <div class="center">
 
-    <button onclick="foo()"> count </button>
+    <button onclick="foo1()"> count6.1 </button>
+    <br>
+    <button onclick="foo2()"> count6.2 </button>
     <!--кнопка-->
 
 </div>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 7</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        input{
+            text-align: center; 
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color: rgb(127, 133, 126);        }
+        input{
+            width: 64px;
+            border-radius: 6px;
+            border: 1px solid rgb(114, 114, 114);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            margin-left: 30vw;
+            margin-top: 3vh;
+        }
+
+    </style>
+    <script>
+        function foo1(subN) { //функция, которую будем вызывать
+            var arr = ['a', 'b', 'c'];
+
+            if (subN = 1) {
+                alert(arr);
+            }
+            else if (subN = 2) {
+                alert(arr[0], arr[1], arr[2]);
+            }
+        }
+
+        function foo2() { //функция, которую будем вызывать
+            var arr = ['a', 'b', 'c','d'];
+
+            alert(arr[0]+'+'+arr[1]+', '+ arr[2]+'+'+arr[3]);
+        }
+
+        function foo3() { //функция, которую будем вызывать
+            var arr = [2, 5, 3, 9];
+            var result = arr[0]*arr[1]+ arr[2]*arr[3];
+            alert(result);
+        }
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <button onclick="foo1(1)"> show array 7.1</button>
+        <br>
+    <button onclick="foo1(2)"> show array 7.2</button>
+        <br>
+    <button onclick="foo2()"> show array 7.3</button>
+        <br>
+    <button onclick="foo3()"> show array 7.4</button>
+    <!--кнопка-->
+
+</div>
+    
+    
+</body>
+</html>
