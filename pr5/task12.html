@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 12</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color: rgb(100, 139, 113);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 64px;
+            border-radius: 6px;
+            border: 3px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            text-align: center;
+            margin-top: 5vh;
+        }
+
+    </style>
+
+    <script>
+        //(11 > a > 2) or (6 =&#60; b &#60; 14)
+        function foo1() {
+        var a = parseInt(document.getElementById('a').value);
+
+        if(a > 0 & a < 5){
+            document.body.style.background = 'green';
+            alert('true');
+            returnColor();
+        }
+        else{
+            document.body.style.background = 'red';
+            alert('false');
+            returnColor();
+        }
+        }
+        
+        function returnColor(){
+            document.body.style.background = 'rgb(130, 100, 139)';
+        }
+
+        function foo2() {
+        var a = parseInt(document.getElementById('a').value);
+            
+        if((a == 0) || (a == 2)){
+            document.body.style.background = 'green';
+            var ansver = a + 7;
+            alert(`true\na= ${ansver}`);
+            returnColor();
+        }
+        else{
+            document.body.style.background = 'red';
+            alert('variable a is incorrect');
+            returnColor();
+        }
+        }
+
+        function foo3() {
+        var a = parseInt(document.getElementById('a').value);
+        var b = parseInt(document.getElementById('b').value);
+            
+        if((a <= 1) & (b >= 3)){
+            document.body.style.background = 'green';
+            var ansver = a + b;
+            alert(`true\nsum= ${ansver}`);
+            returnColor();
+        }
+        else{
+            document.body.style.background = 'red';
+            var ansver = a - b;
+            alert(`false\ndiv= ${ansver}`);
+            returnColor();
+        }
+        }
+
+
+        function foo4() {
+        var a = parseInt(document.getElementById('a').value);
+        var b = parseInt(document.getElementById('b').value);
+            
+        if((a > 2 & a < 11) || (b >= 6 & b < 14)){
+            document.body.style.background = 'green';
+            alert(`true`);
+            returnColor();
+        }
+        else{
+            document.body.style.background = 'red';
+            alert(`false`);
+            returnColor();
+        }
+        }
+
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <input id="a" type="number" placeholder="a" width="20px"> <input id="b" type="number" placeholder="b" width="20px">
+        <br>
+    12.1 <button onclick="foo1()">a > 0 & a &#60; 5</button>
+        <br>
+    12.2 <button onclick="foo2()">a = 0 || a = 2</button>
+        <br>
+    12.3 <button onclick="foo3()">a &#60;= 1 & b >=3</button>
+        <br>
+    12.4 <button onclick="foo4()">(11>a>2) || (6&#60;=b&#60;14)</button>
+
+</div>
+    
+    
+</body>
+</html>

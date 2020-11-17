@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 13</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color: rgb(167, 167, 167);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 80px;
+            border-radius: 6px;
+            border: 1px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            margin-top: 25vh;
+            text-align: center;
+        }
+
+    </style>
+
+    <script>
+        function foo() {
+
+        var season = parseInt(document.getElementById('season').value);
+        var result = '';
+
+        switch (season) {
+            case 1:
+                result = 'winter';
+                document.body.style.background = 'rgb(36, 138, 255)';
+                setTimeout(returnColor, 1000);
+                break;
+            case 2:
+                result = 'spring';
+                document.body.style.background = 'rgb(165, 97, 192)';
+                setTimeout(returnColor, 1000);
+                break;
+            case 3:
+                result = 'summer';
+                document.body.style.background = 'rgb(228, 226, 95)';
+                setTimeout(returnColor, 1000);
+                break; 
+            case 4:
+                result = 'autumn';
+                document.body.style.background = 'rgb(240, 164, 0)';
+                setTimeout(returnColor, 1000);
+                break;   
+        default:
+        console.log(`Sorry, we are out of ${expr}.`);
+        }
+        }
+
+        
+        
+        function returnColor(){
+            document.body.style.background = 'rgb(167, 167, 167)';
+        }
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <input type="number" id="season" min="1" max="4">
+    <br>
+    <button onclick="foo()">show season</button>
+
+</div>
+    
+    
+</body>
+</html>

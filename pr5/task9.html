@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 9</title>
+    <style>
+        html {
+            min-height: 100%;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        input{
+            text-align: center; 
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color: rgb(111, 105, 129);        }
+        input{
+            width: 64px;
+            border-radius: 6px;
+            border: 1px solid rgb(114, 114, 114);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            margin-left: 40vw;
+            margin-top: 30vh;
+        }
+
+    </style>
+
+    <script>
+        function foo() { //функция, которую будем вызывать
+        var arr = [
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+        ];
+        alert(` arr[1][0] = ${arr[1][0]}`);
+        }
+
+
+        function foo1(){
+        var obj = {
+            js: ['jQuery','Angular'],
+            php: 'hello',
+            css: 'world'
+        };
+        alert(`jQuery: ${obj.js[0]}`)
+        }
+
+
+        function foo2(){
+
+        var obj = {
+            ru: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
+            en: ['Monday', 'Tuesday', 'Wednesday', 'Thusday', 'Friday', 'Saturday']
+        };
+        alert(`Понедельник: ${obj.ru[0]}\nWednesday: ${obj.en[2]}`)
+        }
+
+        function foo3(){
+        var d = new Date();
+        var n = d.getDay();
+        var lang = 'ru';
+
+        var obj = {
+            ru: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
+            en: ['Monday', 'Tuesday', 'Wednesday', 'Thusday', 'Friday', 'Saturday']
+        };
+
+
+        alert(obj[lang][n-1]);
+
+        }
+        
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <button onclick="foo()">show 9.1 </button>
+        <br>
+    <button onclick="foo1()"> show 9.2</button>
+        <br>
+    <button onclick="foo2()"> show 9.3</button>
+        <br>
+    <button onclick="foo3()"> show 9.4</button>
+
+</div>
+    
+    
+</body>
+</html>

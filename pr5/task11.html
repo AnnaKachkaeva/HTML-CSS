@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 11</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color: rgb(130, 100, 139);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 80px;
+            border-radius: 6px;
+            border: 1px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            margin-top: 25vh;
+            text-align: center;
+        }
+
+    </style>
+
+    <script>
+        function foo(ok) {
+
+        var a = document.getElementById('test').checked;
+
+            if(a==ok){
+                document.body.style.background = 'true';
+                alert('true');
+                returnColor();
+            }
+            else{
+                document.body.style.background = 'red';
+                alert('false');
+                returnColor();
+            }
+        }
+        
+        
+        function returnColor(){
+            document.body.style.background = 'rgb(130, 100, 139)';
+        }
+
+    </script>
+</head>
+<body>
+
+
+    <div class="center">
+
+    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
+    <br>
+    <button onclick="foo(true)">test=true 11.1</button>
+    <br>
+    <button onclick="foo(false)">test=true 11.2</button>
+
+</div>
+    
+    
+</body>
+</html>
