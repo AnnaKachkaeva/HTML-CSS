@@ -1,77 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0px none;
-        }
+<meta charset="utf-8">
+<title>task 9</title>
+<style>
+    .scene {
+     width: 150px;
+     height: 50px;
+     perspective: 900px;
+     margin: 16.3em auto;
+   }
+   .cube {
+     width: 150px;
+     height: 50px;
+     position: relative;
+     margin: 12.3em auto;
+     transform: translateZ(-50px);
+     transition: transform 0.5s;
+     transform-style: preserve-3d;
+   }
+   .cube-face {
+     position: absolute;
+     width: 200px;
+     height: 50px;
+     text-align: center;
+     font-size: 25px;
+     padding-top: 20px;
+     cursor: pointer;
+     background: #334e00;
+     color: whitesmoke;
+   }
+   .front-face {
+     transform: rotateY(0deg) translateZ(24px);
+     box-shadow: inset 0 0 10px #abf5b3;
+   }
+   .top-face {
+     transform: rotateX(90deg) translateZ(34px) translateY(-11.5px);
+     background: #ff7197;
+     color: whitesmoke;
+     box-shadow: inset 0 0 12px #6625fd;
+   }
+   .right-face {
+     transform: rotateY(90deg) translateX(11px) translateZ(165px) translateY(1px);
+     background: #ffe552;
+     width: 70px;
+     height: 50px;
+     color: whitesmoke;
+     box-shadow: inset 0 0 12px rgb(56, 90, 0);
+   }
+   .bottom-face{
+     transform: rotateX(-90deg) translateZ(35px) translateY(10px);
+     background: #c40000;
+     width: 200px;
+     height: 50px;
+     color: whitesmoke;
+     box-shadow: inset 0 0 12px rgb(255, 0, 128);
+   }
+   .cube:hover:nth-child(1) {
+     transform: rotateX(-90deg);
+     transition: 1500ms;
+   }
+   .cube:hover:nth-child(2) {
+     transform: rotateY(-90deg);
+     transition: 300ms;
+   }
+   .cube:hover:nth-child(3) {
+     transform: rotateX(90deg);
+     transition: 300ms;
+   }
 
-        html {
-            width: 100%;
-            height: 100%;
-            background-color: #333;
-            font: 900 2em/2em 'Montserrat';
-        }
-
-        .button {
-            display: inline-block;
-            overflow: hidden;
-            width: 200px;
-            perspective: 400px;
-            background-color: transparent;
-        }
-
-        .button span {
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            transition: 0.3s ease-in-out all;
-            transform-origin: 50% 0;
-            transform-style: preserve-3d;
-            background-color: black;
-            color: white;
-            width: 100%;
-
-        }
-
-        .button span:after {
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            content: attr(data-title);
-            transition: 0.3s ease-in-out all;
-            transform-origin: 50% 0;
-            transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-            background-color: white;
-            color: black;
-            width: 100%;
-        }
-
-        .button:hover span {
-            transform: translate3d(0px, 0px, -30px) rotateX(90deg);
-        }
-
-    
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-    </style>
+   .container {
+     display: inline-block;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     flex-wrap: wrap;
+     width: 80vw;
+     margin: 0 auto;
+     min-height: 100vh;
+     position: relative;
+     left: -65px;
+   }
+</style>
 </head>
 <body>
-
-    <button class="button">
-        <span data-title="OH YEAH!">button1</span>
-    </button>
-
-
+<div class="scene">
+<div class="cube">
+<div class="cube-face front-face">tap</div>
+<div class="cube-face top-face">tap</div>
+</div>
+<div class="cube">
+<div class="cube-face front-face">tap</div>
+<div class="cube-face top-face">start</div>
+<div class="cube-face right-face">0_o</div>
+</div>
+<div class="cube">
+<div class="cube-face front-face">press</div>
+<div class="cube-face top-face">Wow</div>
+<div class="cube-face bottom-face">Bottom</div>
+</div>
+<div class="container">
+<a class="btn btn-1">hover</a>
+<a class="btn btn-2">hover</a>
+</div>
+</div>
+</div>
 </body>
 </html>
+
+
+
+
+
