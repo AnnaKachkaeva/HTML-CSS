@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 11</title>
+    <title>task 4</title>
     <style>
         html {
             min-height: 100%;
@@ -31,7 +31,7 @@
         }
 
         body {
-            background-color: rgb(130, 100, 139);      
+            background-color: rgb(139, 122, 100);      
         }
         input{
             text-align: center;
@@ -54,39 +54,21 @@
     </style>
 
     <script>
-        function foo(ok) {
 
-        var a = document.getElementById('test').checked;
+        function foo1() {
+            var a = [4, -2, 5, 19, -130, 0, 10];
 
-            if(a==ok){
-                document.body.style.background = 'green';
-                alert('true');
-                returnColor();
-            }
-            else{
-                document.body.style.background = 'red';
-                alert('false');
-                returnColor();
-            }
+            alert('arr: ' + a + '\nmax: '+ Math.max(4, -2, 5, 19, -130, 0, 10) + '\nmin: '+ Math.min(4, -2, 5, 19, -130, 0, 10));
         }
-        
-        
-        function returnColor(){
-            document.body.style.background = 'rgb(130, 100, 139)';
-        }
-
     </script>
 </head>
 <body>
 
 
     <div class="center">
+    <button onclick="foo1()">4.1</button>
 
-    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
-    <br>
-    <button onclick="foo(true)">test=true 11.1</button>
-    <br>
-    <button onclick="foo(false)">test=true 11.2</button>
+
 
 </div>
     

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 15</title>
+    <script>
+        function foo1() {
+            var tf = document.getElementById("tf");
+            tf.innerHTML = "";
+            var arr = [1, 2, 3, 4, 5];
+
+            for(var i = 0; i< arr.length;  i++){
+                
+                var text = document.createTextNode(arr[i]);
+                tf.appendChild(text);
+                if(i+1 != arr.length){
+                    var text = document.createTextNode(", ");
+                    tf.appendChild(text);
+                }
+            }
+        }
+
+
+        function foo2() {
+            var tf = document.getElementById("tf");
+            tf.innerHTML = "";
+            var arr = [1, 2, 3, 4, 5];
+            var sum = 0;
+
+            for(var i = 0; i< arr.length;  i++){
+                sum += arr[i]; 
+            }
+            var text = document.createTextNode(sum);
+            tf.appendChild(text);
+        }
+    
+    
+        
+
+    </script>
+    <style>
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body{
+            background-color: rgb(118, 112, 121);
+        }
+        html{
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+        
+        .center{
+            margin-left: 38vw;
+            margin-top: 20vh;
+        }
+        #tf{
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            border: 1px solid white;
+            width: 190px;
+            height: 150px;
+            font-size: small;
+            padding-left: 4px;
+            padding-top: 4px;
+            overflow:auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+
+        <button onclick="foo1()">show 15.1 </button>
+        <br>
+        <button onclick="foo2()">show 15.2 </button>
+        <br>
+        <br>
+        <div id="tf">
+        </div>
+    </div>
+</body>
+</html>

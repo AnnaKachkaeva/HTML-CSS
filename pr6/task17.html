@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 11</title>
+    <title>task 17</title>
     <style>
         html {
             min-height: 100%;
@@ -31,12 +31,12 @@
         }
 
         body {
-            background-color: rgb(130, 100, 139);      
+            background-color:rgb(70, 185, 141);      
         }
         input{
             text-align: center;
             color: white;
-            width: 80px;
+            width: 200px;
             border-radius: 6px;
             border: 1px solid rgb(180, 180, 180);
             background-color: transparent;
@@ -54,39 +54,28 @@
     </style>
 
     <script>
-        function foo(ok) {
+        function foo1() {
+            var arr =  [1, 2, 3, 4, 5];
 
-        var a = document.getElementById('test').checked;
-
-            if(a==ok){
-                document.body.style.background = 'green';
-                alert('true');
-                returnColor();
-            }
-            else{
-                document.body.style.background = 'red';
-                alert('false');
-                returnColor();
-            }
+            alert( arr.slice(0, 3));         
         }
-        
-        
-        function returnColor(){
-            document.body.style.background = 'rgb(130, 100, 139)';
-        }
+        function foo2() {
+            var arr =  [1, 2, 3, 4, 5];
 
+            alert( arr.slice(3, 2));       
+        }
     </script>
 </head>
 <body>
 
 
-    <div class="center">
+<div class="center">
 
-    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
+    <button onclick="foo1()">17.1</button>
     <br>
-    <button onclick="foo(true)">test=true 11.1</button>
+    <button onclick="foo2()">17.2</button>
     <br>
-    <button onclick="foo(false)">test=true 11.2</button>
+    
 
 </div>
     

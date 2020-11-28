@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 16</title>
+    <script>
+        function foo1() {
+            var arr = [2, 5, 9, 15, 0, 4];
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] > 3 && arr[i] < 10) console.log(arr[i]);
+            }
+        }
+
+
+        function foo2() {
+            var arr = [2, -5, 9, -15, 0, 4];
+            var sum = 0;
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] > 0) sum += arr[i];
+            }
+            console.log(sum);
+        }
+
+        function foo3() {
+            var arr = [1, 2, 5, 9, 4, 13, 4, 10];
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == 4) {
+                    console.log('we found it!');
+                    break;
+                }
+            }
+        }
+
+        function foo4() {
+            var arr = [10, 20, 30, 50, 235, 3000];
+
+            for (var i = 0; i < arr.length; i++) {
+                str = '' + arr[i];
+                if (str[0] == '1' || str[0] == '2' || str[0] == '5') {
+                    console.log(arr[i]);
+                }
+            }
+        }
+
+        function foo5() {
+            var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+            var str = '-';
+
+            for (var i = 0; i < arr.length; i++) {
+                str += +arr[i] + '-';
+            }
+            console.log(str);
+        }
+
+
+        function foo6() {
+            var arr = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == 'sat' || arr[i] == 'sun') {
+                    console.log("%c" + arr[i], "color:red" + ";font-weight:bold;");
+                } else {
+                    console.log(arr[i]);
+                }
+            }
+        }
+
+
+
+
+        function foo7() {
+            var d = new Date();
+            var n = d.getDay();
+
+            var obj = {
+                1: 'Monday',
+                2: 'Tuesday',
+                3: 'Wednesday',
+                4: 'Thusday',
+                5: 'Friday',
+                6: 'Saturday',
+                0: 'Sunday'
+            };
+
+
+            for (var i = 0; i < 7; i++) {
+                if (i == n) {
+                    console.log("%c" + obj[i], "color:red" + ";font-weight:bold;");
+                } else {
+                    console.log(obj[i]);
+                }
+            }
+        }
+
+
+        function foo8() {
+            var num = 1000;
+            var counter = 0;
+
+            while (num > 50) {
+                counter++;
+                num /= 2;
+            }
+            console.log("num : " + num + '\niterations : ' + counter);
+
+        }
+    </script>
+    <style>
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body{
+            background-color: rgb(164, 179, 162);
+        }
+        html{
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+        
+        .center{
+            margin-left: 38vw;
+            margin-top: 10vh;
+        }
+        #tf{
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            border: 1px solid white;
+            width: 190px;
+            height: 150px;
+            padding-left: 4px;
+            padding-top: 4px;
+            overflow:auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+
+        <button onclick="foo1()">show 17.1 </button>
+        <br>
+        <button onclick="foo2()">show 17.2 </button>
+        <br>
+        <button onclick="foo3()">show 17.3 </button>
+        <br>
+        <button onclick="foo4()">show 17.4 </button>
+        <br>
+        <button onclick="foo5()">show 17.5 </button>
+        <br>
+        <button onclick="foo6()">show 17.6 </button>
+        <br>
+        <button onclick="foo7()">show 17.7 </button>
+        <br>
+        <button onclick="foo8()">show 17.8</button>
+    </div>
+</body>
+</html>

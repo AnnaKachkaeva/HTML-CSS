@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 11</title>
+    <title>task 9</title>
     <style>
         html {
             min-height: 100%;
@@ -31,12 +31,12 @@
         }
 
         body {
-            background-color: rgb(130, 100, 139);      
+            background-color: rgb(120, 100, 139);      
         }
         input{
             text-align: center;
             color: white;
-            width: 80px;
+            width: 200px;
             border-radius: 6px;
             border: 1px solid rgb(180, 180, 180);
             background-color: transparent;
@@ -54,39 +54,49 @@
     </style>
 
     <script>
-        function foo(ok) {
-
-        var a = document.getElementById('test').checked;
-
-            if(a==ok){
-                document.body.style.background = 'green';
-                alert('true');
-                returnColor();
-            }
-            else{
-                document.body.style.background = 'red';
-                alert('false');
-                returnColor();
-            }
-        }
-        
-        
-        function returnColor(){
-            document.body.style.background = 'rgb(130, 100, 139)';
+        function foo1() {
+            var st = 'я учу javascript!';
+            alert( 'length: ' + st.length );
+            
         }
 
+        function foo2() {
+            var st = 'я учу javascript!';
+            alert( 'substr: ' + st.substr(0, 2) + st.substr(st.length -1));
+            alert('substring: ' + st.substring(0, 2) + st.substring(st.length -1));
+            alert( 'slice: ' + st.slice(0, 2) + st.slice(st.length -1));
+        }
+        function foo3() {
+            var st = 'я учу javascript!';
+            alert( 'indexOf: ' + st.indexOf('учу'));
+            
+        }
+        function foo4() {
+            var str = document.getElementById('str').value;
+            var n = 10;
+            if(str.length>n){
+                alert( str.substr(0, n) + '...' );
+            } else {
+                alert( str );
+            }
+        }
     </script>
 </head>
 <body>
 
 
     <div class="center">
+        <input id="str" type="text" placeholder="string" width="40px">
+        <br>
+    <button onclick="foo1()">9.1</button>
+    <br>
+    <button onclick="foo2()">9.2</button>
+    <br>
+    <button onclick="foo3()">9.3</button>
+    <br>
+    <button onclick="foo4()">9.4</button>
+    <br>
 
-    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
-    <br>
-    <button onclick="foo(true)">test=true 11.1</button>
-    <br>
-    <button onclick="foo(false)">test=true 11.2</button>
 
 </div>
     

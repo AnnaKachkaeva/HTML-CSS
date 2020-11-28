@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 11</title>
+    <title>task 8</title>
     <style>
         html {
             min-height: 100%;
@@ -31,7 +31,7 @@
         }
 
         body {
-            background-color: rgb(130, 100, 139);      
+            background-color: rgb(100, 107, 139);      
         }
         input{
             text-align: center;
@@ -54,39 +54,30 @@
     </style>
 
     <script>
-        function foo(ok) {
-
-        var a = document.getElementById('test').checked;
-
-            if(a==ok){
-                document.body.style.background = 'green';
-                alert('true');
-                returnColor();
-            }
-            else{
-                document.body.style.background = 'red';
-                alert('false');
-                returnColor();
-            }
-        }
-        
-        
-        function returnColor(){
-            document.body.style.background = 'rgb(130, 100, 139)';
+        function foo1() {
+            var str = document.getElementById('str').value;
+            alert( str.toUpperCase() );
+            
         }
 
+        function foo2() {
+            var str = document.getElementById('str').value;
+            alert( str.toLowerCase() );
+            
+        }
     </script>
 </head>
 <body>
 
 
     <div class="center">
+        <input id="str" type="text" placeholder="string" width="40px">
+        <br>
+    <button onclick="foo1()">8.1</button>
+    <br>
+    <button onclick="foo2()">8.2</button>
+    <br>
 
-    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
-    <br>
-    <button onclick="foo(true)">test=true 11.1</button>
-    <br>
-    <button onclick="foo(false)">test=true 11.2</button>
 
 </div>
     

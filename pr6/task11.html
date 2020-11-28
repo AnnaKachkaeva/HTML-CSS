@@ -31,12 +31,12 @@
         }
 
         body {
-            background-color: rgb(130, 100, 139);      
+            background-color: rgb(139, 100, 134);      
         }
         input{
             text-align: center;
             color: white;
-            width: 80px;
+            width: 200px;
             border-radius: 6px;
             border: 1px solid rgb(180, 180, 180);
             background-color: transparent;
@@ -54,39 +54,48 @@
     </style>
 
     <script>
-        function foo(ok) {
-
-        var a = document.getElementById('test').checked;
-
-            if(a==ok){
-                document.body.style.background = 'green';
-                alert('true');
-                returnColor();
-            }
-            else{
-                document.body.style.background = 'red';
-                alert('false');
-                returnColor();
-            }
-        }
-        
-        
-        function returnColor(){
-            document.body.style.background = 'rgb(130, 100, 139)';
+        function foo1() {
+            var st = 'я учу javascript!';
+            var arr = st.split(' ');
+            alert( 'arr[0]: ' + arr[0] + '\narr[1]: ' + arr[1] + '\narr[2]: ' + arr[2]);
+            
         }
 
+        function foo2() {
+            var st = 'я учу javascript!';
+            var arr = st.split('');
+            var output = '';
+            for(var i = 0; i<17; i++){
+                output += arr[i];
+            }
+            alert(output);
+        }
+
+        function foo3() {
+            var st = '2020-11-18';
+            st = st.replaceAll('-', '.')
+            var arr = st.split('.');
+            var output = '';
+            for(var i = 2; i>=0; i--){
+                output += arr[i] + '.';
+            }
+            output = output.replace('0.','0');
+            alert(output);
+        }
+        
     </script>
 </head>
 <body>
 
 
     <div class="center">
-
-    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
+    <button onclick="foo1()">11.1</button>
     <br>
-    <button onclick="foo(true)">test=true 11.1</button>
+    <button onclick="foo2()">11.2</button>
     <br>
-    <button onclick="foo(false)">test=true 11.2</button>
+    <button onclick="foo3()">11.3</button>
+    <br>
+    
 
 </div>
     

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 14</title>
+    <script>
+        function foo1() {
+            document.getElementById('tf').innerHTML = "";
+            var wh = document.getElementById('while');
+            var tf = document.getElementById("tf");
+            var i = 1;
+
+            if(wh.checked){
+                while(i!=101){
+                var text = document.createTextNode(i);
+                tf.appendChild(text);
+                var br = document.createElement('br');
+                tf.appendChild(br);
+                i++;
+                }
+            } else{
+                for(var i = 1; i<=100; i++){
+                var text = document.createTextNode(i);
+                tf.appendChild(text);
+                var br = document.createElement('br');
+                tf.appendChild(br);
+                }
+            }
+        }
+
+
+        function foo2() {
+            document.getElementById('tf').innerHTML = "";
+            var wh = document.getElementById('while');
+            var tf = document.getElementById("tf");
+            var i = 11;
+
+            if(wh.checked){
+                while(i!=34){
+                var text = document.createTextNode(i);
+                tf.appendChild(text);
+                var br = document.createElement('br');
+                tf.appendChild(br);
+                i++;
+                }
+            } else{
+                for(var i = 11; i<=33; i++){
+                var text = document.createTextNode(i);
+                tf.appendChild(text);
+                var br = document.createElement('br');
+                tf.appendChild(br);
+                }
+            }
+        }
+    
+    
+        function foo3() {
+            document.getElementById('tf').innerHTML = "";
+            var wh = document.getElementById('while');
+            var tf = document.getElementById("tf");
+            var i = 0;
+
+            if(wh.checked){
+                while(i!=101){
+                    if(i%2 != 1){
+                        var text = document.createTextNode(i);
+                        tf.appendChild(text);
+                        var br = document.createElement('br');
+                        tf.appendChild(br);
+                    }
+                i++;
+                }
+            } else{
+                for(var i = 1; i<=100; i++){
+                    if(i%2 != 1){
+                        var text = document.createTextNode(i);
+                        tf.appendChild(text);
+                        var br = document.createElement('br');
+                        tf.appendChild(br);
+                    }
+                }
+            }
+        }
+    
+
+
+        function foo4() {
+            document.getElementById('tf').innerHTML = "";
+            var wh = document.getElementById('while');
+            var tf = document.getElementById("tf");
+            var i = 0;
+            var sum = 0;
+
+            if(wh.checked){
+                while(i!=100){
+                    sum += ++i;
+                }
+                var text = document.createTextNode(sum);
+                tf.appendChild(text);
+            } else{
+                for(i = 1; i<=100; i++){
+                    sum += i;
+                }
+                var text = document.createTextNode(sum);
+                tf.appendChild(text);
+            }
+        }
+
+    </script>
+    <style>
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body{
+            background-color: rgb(118, 121, 112);
+        }
+        html{
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+        
+        .center{
+            margin-left: 15vw;
+            margin-top: 10vh;
+        }
+        #tf{
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            border: 1px solid white;
+            width: 190px;
+            height: 150px;
+            font-size: small;
+            padding-left: 4px;
+            padding-top: 4px;
+            overflow:auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <input id="while" name="dzen" type="radio"> while
+        <input id="for" name="dzen" type="radio"> for
+        <br>
+        <button onclick="foo1()">show 14.1 [1; 100]</button>
+        <br>
+        <button onclick="foo2()">show 14.2 [11; 33]</button>
+        <br>
+        <button onclick="foo3()">show 14.3 even[0; 100]</button>
+        <br>
+        <button onclick="foo4()">show 14.4 summ[1; 100]</button>
+        <br>
+        <br>
+        <div id="tf">
+        </div>
+    </div>
+</body>
+</html>

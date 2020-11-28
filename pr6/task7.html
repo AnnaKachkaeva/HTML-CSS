@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 11</title>
+    <title>task 7</title>
     <style>
         html {
             min-height: 100%;
@@ -31,7 +31,7 @@
         }
 
         body {
-            background-color: rgb(130, 100, 139);      
+            background-color: rgb(100, 136, 139);      
         }
         input{
             text-align: center;
@@ -54,39 +54,41 @@
     </style>
 
     <script>
-        function foo(ok) {
 
-        var a = document.getElementById('test').checked;
+        function foo1() {
+            var arr = [12, 15, 20, 25, 59, 79];
+            var sum = 0;
 
-            if(a==ok){
-                document.body.style.background = 'green';
-                alert('true');
-                returnColor();
+            for(var i = 0; i < arr.length; i++){
+                sum += arr[i];
             }
-            else{
-                document.body.style.background = 'red';
-                alert('false');
-                returnColor();
-            }
-        }
-        
-        
-        function returnColor(){
-            document.body.style.background = 'rgb(130, 100, 139)';
+
+            alert('среднее: ' + sum/arr.length);
+            
         }
 
+        function foo2() {
+            var a = 3;//факториал этого считаем
+            var fac = 1;
+
+            var i = 1;
+            while( i != a+1 ){
+                fac *= i;
+                i++;
+            }
+            alert('factorial: ' + fac);
+        }
     </script>
 </head>
 <body>
 
 
     <div class="center">
+    <button onclick="foo1()">7.1</button>
+    <br>
+    <button onclick="foo2()">7.2</button>
+    <br>
 
-    <input type="checkbox" id="test" value="fghj">test (check the box if test=true)
-    <br>
-    <button onclick="foo(true)">test=true 11.1</button>
-    <br>
-    <button onclick="foo(false)">test=true 11.2</button>
 
 </div>
     
