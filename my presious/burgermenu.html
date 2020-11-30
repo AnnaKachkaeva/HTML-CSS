@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="script.js" defer></script>
+    <style>
+        button{
+            background-color: transparent;
+            border: 0;
+            color: white;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 1rem;
+            z-index: 10;
+        }
+
+        .button-clicked{
+            animation: animation 0.3s forwards;
+        }
+
+        .button-unclicked{
+            animation: animation-reverse 0.3s forwards;
+        }
+
+        nav {
+            position: fixed;
+            top:0;
+            right:0;
+            height: 100vh;
+            background-color: rgb(153, 216, 101);
+            padding: 70px 2rem 0 2rem;
+            transform: translateX(100%);
+            z-index: 5;
+        }
+        @keyframes show {
+            0%{
+                transform: translateX(100%);
+            }
+            100%{
+                transform: translateX(0px);
+            }
+        }
+        
+        .show{
+            animation: show 0.3s forwards;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+
+        nav ul li {
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+        }
+
+        @keyframes animation {
+            0%{}
+            100%{
+                transform: rotate(135deg);
+            }
+        }
+
+        @keyframes animation-reverse {
+            0%{
+                transform: rotate(45deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div>
+        <button id="btn" onclick="funk()"> 
+            <img height="40px" width="40px" src="/my presious/img/plus.svg" alt="llknlkn">
+        </button>
+        
+        <nav id="nav">
+          <ul>
+            <li><a href="#">films</a></li>
+            <li><a href="#">persons</a></li>
+            <li><a href="#">me</a></li>
+          </ul>
+        </nav>
+    </div>
+
+</body>
+</html>

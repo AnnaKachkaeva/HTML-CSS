@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <style>
+  #loading {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #0086ff; z-index: 2147483647; text-align: center}
+  #loading > div {position: absolute; top: 30vh; left: 50vw; margin-left: -100px; width: 200px; display: inline-block; text-align: center}
+  #loading img {margin-bottom: 10px;}
+  .spinner { margin: 20px auto; width: 40px; height: 40px; position: relative; text-align: center; -webkit-animation: sk-rotate 2.0s infinite linear; animation: sk-rotate 2.0s infinite linear;}
+  .dot1, .dot2 {width: 60%; height: 60%; display: inline-block; position: absolute; top: 0; background-color: #fff; border-radius: 100%; -webkit-animation: sk-bounce 2.0s infinite ease-in-out; animation: sk-bounce 2.0s infinite ease-in-out;}
+  .dot2 {top: auto; bottom: 0; -webkit-animation-delay: -1.0s; animation-delay: -1.0s;}
+  @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+  @keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+  @-webkit-keyframes sk-bounce { 0%, 100% { -webkit-transform: scale(0.0); opacity: 0.25 } 50% { -webkit-transform: scale(1.0); opacity: 0.95 }}
+  @keyframes sk-bounce { 0%, 100% { transform: scale(0.0); -webkit-transform: scale(0.0); opacity: 0.25 } 50% { transform: scale(1.0); -webkit-transform: scale(1.0); opacity: 0.95 }}
+  </style>
+
+  <link rel="preload" href="https://securepubads.g.doubleclick.net/tag/js/gpt.js" as="script">
+  <title>Toy Story 3 filme - Trailer, sinopse e horários - Guia da Semana</title>
+<meta name="contenIdentifier" content="C4-sao-paulo,S6-cinema,K99-MOV" />
+
+<meta name="description" content="Woody e seus amigos são doados a uma creche depois que seu dono vai para a universidade" />
+<meta name="keywords" content="animação,filme infantil,toy story 3,filme toy story 3,sinopse toy story 3" />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="https://www.guiadasemana.com.br/cinema/sinopse/toy-story-3" />
+
+<meta property="fb:page_id" content="135276279839545" /><meta name="twitter:site" content="@guiadasemana" /><link href="https://plus.google.com/103197287454781711210" rel="publisher" />
+<meta property="og:title" content="Toy Story 3 filme - Trailer, sinopse e horários - Guia da Semana" />
+<meta property="og:description" content="Woody e seus amigos são doados a uma creche depois que seu dono vai para a universidade" />
+<meta name="twitter:title" content="Toy Story 3 filme - Trailer, sinopse e horários - Guia da Semana" />
+<meta property="twitter:description" content="Woody e seus amigos são doados a uma creche depois que seu dono vai para a universidade" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:url" content="https://www.guiadasemana.com.br/cinema/sinopse/toy-story-3" />
+<meta name="twitter:url" content="https://www.guiadasemana.com.br/cinema/sinopse/toy-story-3" />
+
+<meta itemprop="name" content="Toy Story 3 filme - Trailer, sinopse e horários - Guia da Semana">
+<meta itemprop="description" content="Woody e seus amigos são doados a uma creche depois que seu dono vai para a universidade">
+<meta itemprop="image" content="https://www.guiadasemana.com.br/img/default-share-logo.png">
+
+<meta property="og:image" content="https://www.guiadasemana.com.br/img/default-share-logo.png" />
+<meta name="twitter:image" content="https://www.guiadasemana.com.br/img/default-share-logo.png" />
+<meta property="scoop" content="https://www.guiadasemana.com.br/img/default-share-logo.png" />
+<meta property="og:site_name" content="Guia da Semana" />
+<meta property="og:type" content="movie" />
+
+<meta name="author" content="Redação Guia da Semana" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.guiadasemana.com.br/img/ico_new/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.guiadasemana.com.br/img/ico_new/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://www.guiadasemana.com.br/img/ico_new/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.guiadasemana.com.br/img/ico_new/favicon-16x16.png">
+<link rel="manifest" href="https://www.guiadasemana.com.br/img/ico_new/site.webmanifest">
+<link rel="mask-icon" href="https://www.guiadasemana.com.br/img/ico_new/safari-pinned-tab.svg" color="#0f3879">
+<link rel="shortcut icon" href="https://www.guiadasemana.com.br/img/ico_new/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Guia da Semana">
+<meta name="application-name" content="Guia da Semana">
+<meta name="msapplication-TileColor" content="#0086ff">
+<meta name="msapplication-TileImage" content="https://www.guiadasemana.com.br/img/ico_new/mstile-144x144.png">
+<meta name="msapplication-config" content="https://www.guiadasemana.com.br/img/ico_new/browserconfig.xml">
+<meta name="theme-color" content="#0086ff">
+
+
+  
+
+  
+<script>(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var g=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},l=this||self,m=/^[\w+/_-]+[=]{0,2}$/,p=null,q=function(){},r=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";
+if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},u=function(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var v=function(a,b){Object.defineProperty(l,a,{configurable:!1,get:function(){return b},set:q})};var y=function(a,b){this.b=a===w&&b||"";this.a=x},x={},w={};var aa=function(a,b){a.src=b instanceof y&&b.constructor===y&&b.a===x?b.b:"type_error:TrustedResourceUrl";if(null===p)b:{b=l.document;if((b=b.querySelector&&b.querySelector("script[nonce]"))&&(b=b.nonce||b.getAttribute("nonce"))&&m.test(b)){p=b;break b}p=""}b=p;b&&a.setAttribute("nonce",b)};var z=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^+new Date).toString(36)};var A=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},B=function(a){this.a=a||l.document||document};B.prototype.appendChild=function(a,b){a.appendChild(b)};var C=function(a,b,c,d,e,f){try{var k=a.a,h=A(a.a,"SCRIPT");h.async=!0;aa(h,b);k.head.appendChild(h);h.addEventListener("load",function(){e();d&&k.head.removeChild(h)});h.addEventListener("error",function(){0<c?C(a,b,c-1,d,e,f):(d&&k.head.removeChild(h),f())})}catch(n){f()}};var ba=l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ca=l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),da=l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),ea=function(a,b,c){this.b=a;this.f=new B(this.b);this.a=null;this.c=[];this.g=!1;this.i=b;this.h=c},F=function(a){if(a.b.body&&!a.g){var b=
+function(){D(a);l.setTimeout(function(){return E(a,3)},50)};C(a.f,a.i,2,!0,function(){l[a.h]||b()},b);a.g=!0}},D=function(a){for(var b=G(1,5),c=0;c<b;c++){var d=H(a);a.b.body.appendChild(d);a.c.push(d)}b=H(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=G(100,110).toString()+"%";b.style.zIndex=G(2147483544,2147483644).toString();b.style["background-color"]=I(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=I(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=H(a);c.style.width=G(80,85).toString()+"%";c.style.maxWidth=G(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=A(a.f.a,"IMG");d.className=z();d.src=ba;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=H(a),f=H(a);f.style["font-weight"]="bold";f.textContent=ca;var k=H(a);k.textContent=da;J(a,
+e,f);J(a,e,k);J(a,c,d);J(a,c,e);J(a,b,c);a.a=b;a.b.body.appendChild(a.a);b=G(1,5);for(c=0;c<b;c++)d=H(a),a.b.body.appendChild(d),a.c.push(d)},J=function(a,b,c){for(var d=G(1,5),e=0;e<d;e++){var f=H(a);b.appendChild(f)}b.appendChild(c);c=G(1,5);for(d=0;d<c;d++)e=H(a),b.appendChild(e)},G=function(a,b){return Math.floor(a+Math.random()*(b-a))},I=function(a,b,c,d,e,f){return"rgb("+G(Math.max(a,0),Math.min(b,255)).toString()+","+G(Math.max(c,0),Math.min(d,255)).toString()+","+G(Math.max(e,0),Math.min(f,
+255)).toString()+")"},H=function(a){a=A(a.f.a,"DIV");a.className=z();return a},E=function(a,b){0>=b||null!=a.a&&0!=a.a.offsetHeight&&0!=a.a.offsetWidth||(fa(a),D(a),l.setTimeout(function(){return E(a,b-1)},50))},fa=function(a){var b=a.c;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:g(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.c=[];(b=a.a)&&b.parentNode&&b.parentNode.removeChild(b);a.a=null};var ia=function(a,b,c,d,e){var f=ha(c),k=function(n){n.appendChild(f);l.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},h=function(n){document.body?k(document.body):0<n?l.setTimeout(function(){h(n-1)},e):b()};h(3)},ha=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var K={},L=null;var M=function(){},N="function"==typeof Uint8Array,O=function(a,b){a.b=null;b||(b=[]);a.j=void 0;a.f=-1;a.a=b;a:{if(b=a.a.length){--b;var c=a.a[b];if(!(null===c||"object"!=typeof c||Array.isArray(c)||N&&c instanceof Uint8Array)){a.g=b-a.f;a.c=c;break a}}a.g=Number.MAX_VALUE}a.i={}},P=[],Q=function(a,b){if(b<a.g){b+=a.f;var c=a.a[b];return c===P?a.a[b]=[]:c}if(a.c)return c=a.c[b],c===P?a.c[b]=[]:c},R=function(a,b,c){a.b||(a.b={});if(!a.b[c]){var d=Q(a,c);d&&(a.b[c]=new b(d))}return a.b[c]};
+M.prototype.h=N?function(){var a=Uint8Array.prototype.toJSON;Uint8Array.prototype.toJSON=function(){var b;void 0===b&&(b=0);if(!L){L={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));K[e]=f;for(var k=0;k<f.length;k++){var h=f[k];void 0===L[h]&&(L[h]=k)}}}b=K[b];c=[];for(d=0;d<this.length;d+=3){var n=this[d],t=(e=d+1<this.length)?this[d+1]:0;h=(f=d+2<this.length)?this[d+2]:0;k=n>>2;n=(n&
+3)<<4|t>>4;t=(t&15)<<2|h>>6;h&=63;f||(h=64,e||(t=64));c.push(b[k],b[n],b[t]||"",b[h]||"")}return c.join("")};try{return JSON.stringify(this.a&&this.a,S)}finally{Uint8Array.prototype.toJSON=a}}:function(){return JSON.stringify(this.a&&this.a,S)};var S=function(a,b){return"number"!==typeof b||!isNaN(b)&&Infinity!==b&&-Infinity!==b?b:String(b)};M.prototype.toString=function(){return this.a.toString()};var T=function(a){O(this,a)};u(T,M);var U=function(a){O(this,a)};u(U,M);var ja=function(a,b){this.c=new B(a);var c=R(b,T,5);c=new y(w,Q(c,4)||"");this.b=new ea(a,c,Q(b,4));this.a=b},ka=function(a,b,c,d){b=new T(b?JSON.parse(b):null);b=new y(w,Q(b,4)||"");C(a.c,b,3,!1,c,function(){ia(function(){F(a.b);d(!1)},function(){d(!0)},Q(a.a,2),Q(a.a,3),Q(a.a,1))})};var la=function(a,b){V(a,"internal_api_load_with_sb",function(c,d,e){ka(b,c,d,e)});V(a,"internal_api_sb",function(){F(b.b)})},V=function(a,b,c){a=l.btoa(a+b);v(a,c)},W=function(a,b,c){for(var d=[],e=2;e<arguments.length;++e)d[e-2]=arguments[e];e=l.btoa(a+b);e=l[e];if("function"==r(e))e.apply(null,d);else throw Error("API not exported.");};var X=function(a){O(this,a)};u(X,M);var Y=function(a){this.h=window;this.a=a;this.b=Q(this.a,1);this.f=R(this.a,T,2);this.g=R(this.a,U,3);this.c=!1};Y.prototype.start=function(){ma();var a=new ja(this.h.document,this.g);la(this.b,a);na(this)};
+var ma=function(){var a=function(){if(!l.frames.googlefcPresent)if(document.body){var b=document.createElement("iframe");b.style.display="none";b.style.width="0px";b.style.height="0px";b.style.border="none";b.style.zIndex="-1000";b.style.left="-1000px";b.style.top="-1000px";b.name="googlefcPresent";document.body.appendChild(b)}else l.setTimeout(a,5)};a()},na=function(a){var b=Date.now();W(a.b,"internal_api_load_with_sb",a.f.h(),function(){var c;var d=a.b,e=l[l.btoa(d+"loader_js")];if(e){e=l.atob(e);
+e=parseInt(e,10);d=l.btoa(d+"loader_js").split(".");var f=l;d[0]in f||"undefined"==typeof f.execScript||f.execScript("var "+d[0]);for(;d.length&&(c=d.shift());)d.length?f[c]&&f[c]!==Object.prototype[c]?f=f[c]:f=f[c]={}:f[c]=null;c=Math.abs(b-e);c=1728E5>c?0:c}else c=-1;0!=c&&(W(a.b,"internal_api_sb"),Z(a,Q(a.a,6)))},function(c){Z(a,c?Q(a.a,4):Q(a.a,5))})},Z=function(a,b){a.c||(a.c=!0,a=new l.XMLHttpRequest,a.open("GET",b,!0),a.send())};(function(a,b){l[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];l[a]=q;b.apply(null,d)}})("__d3lUW8vwsKlB__",function(a){"function"==typeof window.atob&&(a=window.atob(a),a=new X(a?JSON.parse(a):null),(new Y(a)).start())});}).call(this);
+
+window.__d3lUW8vwsKlB__("WyI3N2M5MWI0NmNjOTc2ODE4IixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4VzNrT2JBRFpFZUZOVnZmTTJNWEJzRk5uazd3dmZYdUJpNzJEYTJteXNQMWpMS1BjYWM2TmhsT3Y1RVJGaklfYkJZSVVPbHhiOW0tNzdTdFd6dDRRQVx1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiTnpkak9URmlORFpqWXprM05qZ3hPQVx1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC83N2M5MWI0NmNjOTc2ODE4LmpzP3VzcXBcdTAwM2RDQU0iXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hWdXBVNFF3LXp6cGZtRFdEYnpVTldGckZYQTRlX0hDOFZmeEJDbHplLVF3TGo5N1dEN3RRblNzUXBldFBkTERWd2t5NExLN2ZacjlkMk9hRWJlP2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4VTR1UDhlY2hyX3FRbHRubW1oZkU2WW1tVjIxUlVWSy1iTk1sbVB0OXJkN1AxQWhlelI3MlQtZzZUVWU0S0V4emZfeVUtWWpQa3JSSlVCMTRBaj9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hYVG43TmlfSkU5NloteG9JVnFGWVRDVnEtWW5pVFZZbkRyaW1kUE1xbkVPZEtGY1BTcEVnanlqSXJ2emU0SFdDUWx6ZlFJamxvSUw4cnEtQ2kwP3NiZlx1MDAzZDIiXQo=");
+</script>
+
+<!-- Google Tag Manager -->
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+  'contentID': 'GDS_C4-sao-paulo,S6-cinema,K99-MOV',
+  'cmsCanal': 'cinema',
+  'cmsCidade': 'sao-paulo',
+  'TipoDispositivo': 'desktop',
+  'homeEspecial': 'GDS_pages',
+  'cmsParceiro': '',
+  'TipoDePagina': 'filme'
+});
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQL2233');
+</script>
+
+<!-- End Google Tag Manager -->
+
+
+
+<!-- Inicialização Google DFP -->
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script async='async' src='https://www.guiadasemana.com.br/j/prebid4.10.0.js?v=20200930'></script>
+<script type="text/javascript" src="https://www.guiadasemana.com.br/j/gdsads.114.min.js?v=20201027132859"></script>
+<script>var googletag = googletag || {};googletag.cmd = googletag.cmd || [];var pbjs = pbjs || {};pbjs.que = pbjs.que || [];pbjs.que.push(function() {pbjs.setConfig({debug: gdsDebug,enableSendAllBids: false,priceGranularity: "high",publisherDomain: "https://www.guiadasemana.com.br",userSync: {filterSettings: {iframe: {bidders: ['rubicon', 'smartadserver', 'appnexus', 'aol'],filter: 'include'}}}});pbjs.onEvent('beforeRequestBids', function(units) {for (i = 0; i < units.length; i++) {var div = document.getElementById(units[i].code);div.setAttribute('pbWidth', 0);div.setAttribute('pbHeight', 0);}});pbjs.onEvent('bidWon', function(data) {var div = document.getElementById(data.adUnitCode);div.setAttribute('pbWidth', data.width);div.setAttribute('pbHeight', data.height);});});var dfpNoGA = '';googletag.cmd.push(function() {googletag.pubads().enableLazyLoad({fetchMarginPercent: 200,renderMarginPercent: 50,mobileScaling: 3.0});googletag.pubads().disableInitialLoad();googletag.pubads().setTargeting('contentID', 'GDS_99-MOV');googletag.pubads().setTargeting('GDSCidades', 'sao-paulo').setTargeting('Regiao', 'Sudeste');googletag.pubads().setTargeting('GDSCanais', 'cinema');googletag.pubads().setTargeting('TipoDispositivo', 'desktop');googletag.pubads().setTargeting('GDSParceiro', '');googletag.pubads().setTargeting('grupo-controle', ((Math.random() <= .2) ? 'b' : 'a'));googletag.pubads().setTargeting('TipoDePagina', 'filme');googletag.pubads().setTargeting('TagOperacional', ["animacao","infantil"]);Object.entries(adMaps).forEach(function(map, i) {name = map[0];map = map[1];gdsMapping[name] = googletag.sizeMapping();gdsMapping[name].addSize([0, 0], [0, 0]);for(i = 0; i < map.length; i++) {size = map[i];gdsMapping[name].addSize([size.min, 0], size.sizes);}gdsMapping[name] = gdsMapping[name].build();});googletag.pubads().addEventListener('impressionViewable', function(event) {var slot = event.slot;var slotID = slot.getSlotElementId();xl("Recebido impressionViewable para slot " + slotID);if (slot.getTargeting('reloadable').indexOf('yes') > -1) {var reqOrd = parseInt(slot.getTargeting('reqOrd'), 10);reqOrd += 1;slot.setTargeting('reqOrd', reqOrd.toString());xl("Ativando reload de active view para slot " + slotID);setTimeout(function() {gdsReload(slotID);}, reloadTime * 1000);}});googletag.pubads().addEventListener('slotRenderEnded', function(event) {var slot = event.slot;var slotID = slot.getSlotElementId();xl("Recebido slotRenderEnded para slot  " + slotID);place = document.getElementById(slotID);if (event.isEmpty) {place.setAttribute('renderWidth', 0);place.setAttribute('renderHeight', 0);if (slot.getTargeting('reloadable').indexOf('yes') > -1) {xl("Ativando reload para banner vazio no slot " + slotID);setTimeout(function() {gdsReload(slotID);}, 20 * 1000);}} else {if (event.advertiserId == 4914344396) {var pbS = place.getAttribute('apssize').split('x');place.setAttribute('renderWidth', pbS[0]);place.setAttribute('renderHeight', pbS[1]);} else if (event.advertiserId == 4907618571) {var pbW = place.getAttribute('pbWidth');var pbH = place.getAttribute('pbHeight');place.setAttribute('renderWidth', pbW);place.setAttribute('renderHeight', pbH);} else {place.setAttribute('renderWidth', event.size[0]);place.setAttribute('renderHeight', event.size[1]);}}});googletag.enableServices();});
+</script>
+
+<link rel="preconnect" href="https://www.guiadasemana.com.br" crossorigin />
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://code.jquery.com" crossorigin />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+<link rel="preconnect" href="https://fastlane.rubiconproject.com" crossorigin="use-credentials" />
+<link rel="preconnect" href="https://prg.smartadserver.com/" crossorigin="use-credentials" />
+<link rel="preconnect" href="https://ib.adnxs.com" crossorigin="use-credentials" />
+<link rel="preconnect" href="https://adserver-us.adtech.advertising.com/" crossorigin="use-credentials" />
+<link rel="preconnect" href="https://bidder.criteo.com/" crossorigin="use-credentials" />
+
+<script data-ad-client="ca-pub-4725662293027249" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQL2233"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="gds_bgtag" style="width: 1px; height: 1px; position: absolute;" class=" " data-prebid="false">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi_Background',sizes: [1, 1],name: 'gds_bgtag',reloadable: false,inreadPosition: '',mapping: '',noprebid: true,type: 'banner',bids: {appNexus: 16200856,rubicon: '1108636',aol: '5097009',criteo: 2049,smart: ''}});
+      </script>
+</div>
+<script>
+  setTimeout(function() {
+    console.log('loader timeout');
+    try {
+      l = document.getElementById('loading');
+      l.parentNode.removeChild(l);
+    } catch(e) {}
+  }, 2500);
+</script>
+  <div id="loading">
+    <div>
+      <img src="https://www.guiadasemana.com.br/img/gds-logo_w.svg" alt="Guia da Semana" width="200" />
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+  </div>
+
+  <header id="main-header">
+    <div id="header">
+      <div class="head-ad d-flex justify-content-center">
+        <div id="gds_fixedlogo"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Headbar',sizes: [320, 50],name: 'gds_fixedlogo',reloadable: true,inreadPosition: '',mapping: 'logoMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200871,rubicon: '1108636',aol: '5097001',criteo: 2049,smart: 93402}});
+      </script>
+</div>      </div>
+    </div>
+    <nav id="side-nav">
+      <h1 class="head-logo"><a href="/sao-paulo/" title="Guia da Semana"><img src="https://www.guiadasemana.com.br/img/gds-logo_w.svg" alt="Guia da Semana" width="50" /></a></h1>
+      <div class="menu-button">
+        <a href="#" class="toggle-nav">
+          <span>
+            <i class="bar"></i>
+            <i class="bar"></i>
+            <i class="bar"></i>
+          </span>
+        </a>
+      </div>
+      <div class="login d-none">
+        <i class="fas fa-star"></i>
+        <a href="/premium?return=https%3A%2F%2Fwww.guiadasemana.com.br%2Fcinema%2Fsinopse%2Ftoy-story-3"><i class="fas fa-user"></i></a>
+      </div>
+            <ul id="social-menu" class="nav flex-nowrap">
+        <li class="toggle-button">
+            <a href="#" title="Compartilhar página" class="share-bg default-red-bg-hover"><i class="fas fa-fw fa-share"></i><i class="fas fa-fw fa-times"></i></a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.guiadasemana.com.br%2Fcinema%2Fsinopse%2Ftoy-story-3&amp;t=Toy+Story+3+filme+-+Trailer%2C+sinopse+e+hor%C3%A1rios+-+Guia+da+Semana" target="_blank" title="Compartilhar no Facebook" rel="nofollow,noopener" class="facebook-bg default-red-bg-hover share-link" service="facebook"><i class="fab fa-fw fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Toy+Story+3+filme+-+Trailer%2C+sinopse+e+hor%C3%A1rios+-+Guia+da+Semana&amp;url=https%3A%2F%2Fwww.guiadasemana.com.br%2Fcinema%2Fsinopse%2Ftoy-story-3" title="Compartilhar no Twitter" target="_blank" rel="nofollow,noopener" class="twitter-bg default-red-bg-hover share-link" service="twitter"><i class="fab fa-fw fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.guiadasemana.com.br%2Fcinema%2Fsinopse%2Ftoy-story-3&amp;media=https%3A%2F%2Fwww.guiadasemana.com.br%2Fimg%2Fgds-logo-800.png&amp;description=Toy+Story+3+filme+-+Trailer%2C+sinopse+e+hor%C3%A1rios+-+Guia+da+Semana" title="Compartilhar no Pinterest" target="_blank" rel="nofollow,noopener" class="pinterest-bg default-red-bg-hover share-link" service="pinterest"><i class="fab fa-fw fa-pinterest-p"></i></a>
+        </li>
+        <li>
+            <a href="whatsapp://send?text=%2AToy+Story+3+filme+-+Trailer%2C+sinopse+e+hor%C3%A1rios+-+Guia+da+Semana%2A+https%3A%2F%2Fwww.guiadasemana.com.br%2Fcinema%2Fsinopse%2Ftoy-story-3" data-action="share/whatsapp/share" title="Compartilhar no Whatsapp" class="whatsapp-bg default-red-bg-hover share-link" service="whatsapp"><i class="fab fa-fw fa-whatsapp"></i></a>
+        </li>
+        <li>
+            <a href="#" data-clipboard-text="https://www.guiadasemana.com.br/cinema/sinopse/toy-story-3" title="Copiar link da página" rel="nofollow,noopener" class="link-copy googleplus-bg default-red-bg-hover"><i class="far fa-fw fa-copy"></i></a>
+        </li>
+      </ul>
+            <ul id="notify-menu" class="nav flex-nowrap">
+        <li class="toggle-button">
+            <a href="#" title="Receba notificações" class="push-bg default-red-bg-hover"><i class="fas fa-fw fa-bell"></i><i class="fas fa-fw fa-times"></i></a>
+        </li>
+        <li>
+            <div class="onesignal-customlink-container"></div>
+        </li>
+      </ul>
+    </nav>
+    <nav id="main-nav">
+      <div class="logo d-flex">
+        <a href="/sao-paulo/" title="Guia da Semana" class="flex-fill guia"><img src="https://www.guiadasemana.com.br/img/gds-logo_w.svg" alt="Guia da Semana" height="30" /></a>
+        <a href="#" class="flex-fill toggle-nav">&times;</a>
+      </div>
+      <div class="container">
+        <ul id="navigation" class="navTopMenu">
+          <li class="navTopItem"><a href="/sao-paulo/"><i class="fas fa-home"></i> Home</a></li>
+          <li class="navTopItem hasSubMenu"><a href="/sao-paulo/busca"><i class="fa fa-search"></i> Pesquise e navegue</a>
+            <ul class="navSubMenu right">
+              <li class="navSubItem"><a href="/sao-paulo/agenda"><i class="far fa-calendar-alt"></i> Agenda de eventos</a></li>
+              <li class="navSubItem"><a href="/sao-paulo/busca?tipo=estabelecimentos"><i class="fas fa-map-marker-alt"></i> Estabelecimentos</a></li>
+              <li class="navSubItem"><a href="/sao-paulo/busca?tipo=noticias"><i class="far fa-images"></i> Notícias e galerias</a></li>
+              <li class="navSubItem"><a href="/sao-paulo/busca?tipo=filmes"><i class="fas fa-film"></i> Filmes e sinopses</a></li>
+            </ul>
+          </li>
+          
+                                                                                                                                                                                                                                                      <li class="navTopItem section-bg-6"><a href="/sao-paulo/cinema"><i class=""></i>  Cinema</a>
+                                                                                                                                                                                                                                                                                                                                              
+                                                  <li class="navTopItem section-bg-16"><a href="/sao-paulo/turismo"><i class=""></i>  Viagens</a>
+                                                            <li class="navTopItem section-bg-1"><a href="/sao-paulo/gastronomia"><i class=""></i>  Gastronomia</a>
+                                                            <li class="navTopItem section-bg-21"><a href="/sao-paulo/receitas"><i class=""></i>  Receitas</a>
+                                                            <li class="navTopItem section-bg-14"><a href="/sao-paulo/restaurantes"><i class=""></i>  Restaurantes</a>
+                                                            <li class="navTopItem section-bg-35"><a href="/sao-paulo/bares-drinks"><i class=""></i>  Bares</a>
+                                                            <li class="navTopItem section-bg-25"><a href="/sao-paulo/na-cidade"><i class=""></i>  Na Cidade</a>
+                                                            <li class="navTopItem section-bg-15"><a href="/sao-paulo/shows"><i class=""></i>  Shows</a>
+                                                                                <li class="navTopItem section-bg-19"><a href="/sao-paulo/filmes-e-series"><i class=""></i>  Filmes e séries</a>
+                                                            <li class="navTopItem section-bg-9"><a href="/sao-paulo/tv-e-famosos"><i class=""></i>  TV</a>
+                                                            <li class="navTopItem section-bg-41"><a href="/sao-paulo/jogos"><i class=""></i>  Jogos</a>
+                                                            <li class="navTopItem section-bg-26"><a href="/sao-paulo/teatro"><i class=""></i>  Teatro</a>
+                                                            <li class="navTopItem section-bg-27"><a href="/sao-paulo/exposicao"><i class=""></i>  Exposição</a>
+                                                            <li class="navTopItem section-bg-28"><a href="/sao-paulo/literatura"><i class=""></i>  Literatura</a>
+                                                            <li class="navTopItem section-bg-22"><a href="/sao-paulo/moda-e-beleza"><i class=""></i>  Moda e Beleza</a>
+                                                            <li class="navTopItem section-bg-34"><a href="/sao-paulo/casa-decoracao"><i class=""></i>  Casa e decoração</a>
+                                                            <li class="navTopItem section-bg-4"><a href="/sao-paulo/bem-estar"><i class=""></i>  Saúde e Bem-Estar</a>
+                                                            <li class="navTopItem section-bg-36"><a href="/sao-paulo/pet"><i class=""></i>  Pet</a>
+                                                            <li class="navTopItem section-bg-5"><a href="/sao-paulo/famosos"><i class=""></i>  Famosos</a>
+                                                            <li class="navTopItem section-bg-7"><a href="/sao-paulo/comportamento"><i class=""></i>  Comportamento</a>
+                              
+                                        <li class="navTopItem hasSubMenu"><a href="#"><i class=""></i>  Especiais</a>
+            <ul class="navSubMenu">
+                            <li class="navSubItem"><a href="/casamento">Casamento</a></li>
+                            <li class="navSubItem"><a href="/oba-oba">Oba Oba</a></li>
+                            <li class="navSubItem"><a href="/promocoes-e-descontos">Promoções e Descontos</a></li>
+                            <li class="navSubItem"><a href="/va-de-bike">Vá de bike</a></li>
+                            <li class="navSubItem"><a href="/verao">Verão</a></li>
+                          </ul>
+          </li>
+          
+                            </ul>
+      </div>
+
+      <ul class="nav social-links nav-fill">
+        <li class="nav-item facebook-bg"><a href="https://www.facebook.com/GuiaDaSemana" target="_blank" title="Siga-nos no Facebook"><i class="fab fa-fw fa-facebook"></i></a></li>
+        <li class="nav-item instagram-bg"><a href="https://www.instagram.com/guiadasemana" target="_blank" title="Siga-nos no Instagram"><i class="fab fa-fw fa-instagram"></i></a></li>
+        <li class="nav-item twitter-bg"><a href="https://www.twitter.com/guiadasemana" target="_blank" title="Siga-nos no Twitter"><i class="fab fa-fw fa-twitter"></i></a></li>
+        <li class="nav-item pinterest-bg"><a href="https://www.pinterest.com/guiadasemana" target="_blank" title="Siga-nos no Pinterest"><i class="fab fa-fw fa-pinterest-p"></i></a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main id="site-main"><article id="page-content" class="film" itemscope itemtype="http://schema.org/Movie">
+    <header class="content-header section-border-6">
+  <i class="section-bgi-6"><a href="/sao-paulo/cinema">Cinema</a></i>  <div class="main-image-sm" style="background-image: url('https://www.guiadasemana.com.br/img/default-header-768.png');"></div>
+  <div class="main-image-lg" style="background-image: url('https://www.guiadasemana.com.br/img/default-header.png');"></div>
+  <meta itemprop="image" content="" />
+  <div class="header-data">
+                <div class="content-credits">
+      <strong>Por</strong> <span itemprop="reviewer">Redação Guia da Semana</span>          </div>
+    <hr />
+    <div class="content-title">
+      <h1 itemprop="name">
+                Toy Story 3
+              </h1>
+                        <h2 class="standfirst" itemprop="reviewBody description">Woody e seus amigos são doados a uma creche depois que seu dono vai para a universidade.</h2>
+                </div>
+    <div class="content-meta">
+                                    <h3>103 min</h3>      <h3>EUA, 2010</h3>                      </div>
+    
+      </div>
+</header>
+  <div class="row">
+    <div class="col main-column" id="content-column">
+
+      <section class="content-details card mb-4">
+  <div class="card-body py-2">
+      <h4 class="card-title">Toy Story 3</h4>
+    <div class="column-info">
+                
+                                <div class="dotted-border-bottom">
+            <p><strong>Diretor:</strong> <span itemprop="director">Lee Unkrich</span></p>                    </div>
+                        <div>
+                        <p><strong>País de origem:</strong> EUA</p>            <p><strong>Ano de produção:</strong> 2010</p>            <p><strong>Classificação:</strong> livre</p>        </div>
+                          <div class="dotted-border-bottom">
+                                              </div>
+                <meta name="url" itemprop="url" content="https://www.guiadasemana.com.br/cinema/sinopse/toy-story-3" />
+                                                                                  </div>
+          </div>
+</section>
+      <section class="content-text" id="main-copy">
+          <div class="text-body description" itemprop="description">
+                  <p>Vencedor das estatuetas de melhor longa-metragem de anima&ccedil;&atilde;o e can&ccedil;&atilde;o original, <strong>Toy Story 3</strong> traz Woody, Buzz e toda a turma na terceira aventura dos brinquedos na telona. Na narrativas, todos est&atilde;o preocupados e apreensivos com o futuro incerto, afinal, Andy se prepara para ir &agrave; universidade e ningu&eacute;m sabe o que acontecer&aacute; dal&iacute; para a frente.</p>
+<p><strong>&gt;&gt; </strong><a href="http://www.guiadasemana.com.br/cinema/noticia/estreias-no-cinema" target="_self">Confira as estreias da semana<br /></a><strong>&gt;&gt; </strong><a href="http://www.guiadasemana.com.br/search?contentType=MOVIE&amp;sessionType=ALL" target="_self">Veja os filmes que est&atilde;o em cartaz<br /></a><strong>&gt;&gt; </strong><a href="http://www.guiadasemana.com.br/cinema/noticia/filmes-mais-vistos-do-fim-de-semana" target="_self">Saiba quais foram os filmes mais vistos do fim de semana</a><br /> <br />Enquanto isso, por engano, os brinquedos s&atilde;o levados para uma sala cheia de crian&ccedil;as selvagens, que mal podem esperar para botar seus dedinhos nesses novos amiguinhos. Enquanto Woody escapa e corre atr&aacute;s de Andy, eles tentam ficar juntos para garantir que nenhum deles seja deixado para tr&aacute;s. <br /> <br />Nessa aventura, Barbie conhece Ken e, claro, se apaixonam &agrave; primeira vista. Novos personagens s&atilde;o apresentados, como o urso Lotso e o boneco-beb&ecirc;. Dirigido por Lee Unkrich (codiretor de <em>Toy Story 2</em> e <em>Procurando Nemo</em>), <strong>Toy Story 3</strong>, conta com a participa&ccedil;&atilde;o de Tom Hanks na voz de Woody, Tim Allen como Buzz e Michael Keaton interpretando Ken.</p>
+<p>Saiba mais sobre a franquia com <strong><a href="http://www.guiadasemana.com.br/cinema/filmes/sinopse/toy-story" target="_self">Toy Story</a></strong> e <strong><a href="http://www.guiadasemana.com.br/cinema/filmes/sinopse/toy-story-2" target="_self">Toy Story 2</a></strong>.</p>
+        </div>
+
+        
+          <div class="open" id="main-gallery">
+    <div class="row flex-nowrap gallery-cta">
+            <div class="col return-text flex-fill">
+        <strong>Galeria de fotos</strong>
+        <span></span>
+      </div>
+      <div class="col image flex-shrink-1">
+        <img height="80" src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2011/9/26287/original/toystory3.jpg" alt="" /></a>
+      </div>
+      <a href="#gallery-img21545" ></a>
+    </div>
+
+    <div class="gallery collapse content-text show" id="gallery-contents">
+            <div id="gallery-img21545" class="gallery-item passed">
+        <figure>
+                    <img class="img-lg" src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2011/9/26287/original/toystory3.jpg" alt="" itemprop="image" />
+          <img class="img-sm" src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2011/9/26287/original/toystory3.jpg" alt="" />
+                                <figcaption>
+              Toy Story 3 (Divulgação)            </figcaption>
+                  </figure>
+              </div>
+
+            <div class="placement d-flex justify-content-center">
+        <div id="gds_inread1"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Inread',sizes: [300, 250],name: 'gds_inread1',reloadable: false,inreadPosition: 'gallery_1',mapping: 'contentMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200903,rubicon: '1108636',aol: '5097009',criteo: 2049,smart: 93407}});
+      </script>
+</div>      </div>
+      
+            <div id="gallery-img21546" class="gallery-item ">
+        <figure>
+                    <img class="img-lg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAQAAADSmGXeAAAAEUlEQVR42mM88Z8BBTBSQQAAuL4I6WLEnGEAAAAASUVORK5CYII=" data-src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/7/54696/original/tou-story-3-02.jpg" width="840" alt="" />
+          <img class="img-sm" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAQAAADSmGXeAAAAEUlEQVR42mM88Z8BBTBSQQAAuL4I6WLEnGEAAAAASUVORK5CYII=" data-src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/7/54696/original/tou-story-3-02.jpg" width="380" alt="" />
+                                <figcaption>
+              Toy Story 3 (Divulgação)            </figcaption>
+                  </figure>
+              </div>
+
+            <div class="placement d-flex justify-content-center">
+        <div id="gds_inread2"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Inread',sizes: [300, 250],name: 'gds_inread2',reloadable: false,inreadPosition: 'gallery_2',mapping: 'contentMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200903,rubicon: '1108636',aol: '5097009',criteo: 2049,smart: 93408}});
+      </script>
+</div>      </div>
+      
+            <div id="gallery-img21547" class="gallery-item ">
+        <figure>
+                    <img class="img-lg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAQAAADSmGXeAAAAEUlEQVR42mM88Z8BBTBSQQAAuL4I6WLEnGEAAAAASUVORK5CYII=" data-src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/7/54697/original/tou-story-3-03.jpg" width="840" alt="" />
+          <img class="img-sm" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAQAAADSmGXeAAAAEUlEQVR42mM88Z8BBTBSQQAAuL4I6WLEnGEAAAAASUVORK5CYII=" data-src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/7/54697/original/tou-story-3-03.jpg" width="380" alt="" />
+                                <figcaption>
+              Toy Story 3 (Divulgação)            </figcaption>
+                  </figure>
+              </div>
+
+            <div class="placement d-flex justify-content-center">
+        <div id="gds_inread3"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Inread',sizes: [300, 250],name: 'gds_inread3',reloadable: false,inreadPosition: 'gallery_3',mapping: 'contentMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200903,rubicon: '1108636',aol: '5097009',criteo: 2049,smart: 93409}});
+      </script>
+</div>      </div>
+      
+            <div id="gallery-img21548" class="gallery-item ">
+        <figure>
+                    <img class="img-lg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAQAAADSmGXeAAAAEUlEQVR42mM88Z8BBTBSQQAAuL4I6WLEnGEAAAAASUVORK5CYII=" data-src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/7/54698/original/tou-story-3-004.jpg" width="840" alt="" />
+          <img class="img-sm" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAQAAADSmGXeAAAAEUlEQVR42mM88Z8BBTBSQQAAuL4I6WLEnGEAAAAASUVORK5CYII=" data-src="https://www.guiadasemana.com.br/contentFiles/system/pictures/2012/7/54698/original/tou-story-3-004.jpg" width="380" alt="" />
+                                <figcaption>
+              Toy Story 3 (Divulgação)            </figcaption>
+                  </figure>
+              </div>
+
+      
+          </div>
+  </div>
+
+      </section>
+
+      
+
+
+<div class="premium-link content-text">
+  <div class="premium-logo float-left mt-1 mr-2 mr-lg-3 ml-1">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-user"></i>
+  </div>
+  <h4>Guia da Semana Premium <br class="d-block d-sm-none" /> <span class="d-none d-sm-inline">-</span> Nossa melhor forma!</h4>
+  <p>Aproveite o Guia da Semana de forma mais rápida, sem banners ou publicidade digital!</p>
+  <p class="text-center"><a href="/premium" class="btn btn-primary btn-sm">Saiba mais!</a></p>
+</div>
+      <section class="content-text credits">
+  <hr />
+        </section>
+      <section class="content-text video">
+    <h4>Trailer do filme</h4>
+    <!-- ********** YOUTUBE BLOCK ************** -->
+          <iframe width="420" height="315" src="http://www.youtube.com/embed/CFQsQzu2KP8" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+      <section class="placement d-flex justify-content-center">
+        <div id="gds_box1"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Internas_vbox1',sizes: [300, 250],name: 'gds_box1',reloadable: false,inreadPosition: '',mapping: 'contentMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200884,rubicon: '1108636',aol: '5097007',criteo: 2049,smart: 93412}});
+      </script>
+</div>      </section>
+
+      <section id="gcwidget">
+        <div class="gcwp-carousel" data-plethora="10"></div>
+      </section>
+
+      <section class="row taboola">
+  <div class="col">
+    <div id="taboola-below-article-thumbnails"></div>
+  </div>
+</section>
+      <section class="home-section row">
+  <div class="section-title col col-12"><h2>Notícias recomendadas</h2></div>
+    <div class="item-1 col col-12 col-md-6 col-xl-4">
+    <div class="home-button section-border-">
+    <div class="image" style="background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2020/11/FEA/thumbnail/66392_w380h235_1604515735shutterstock-204105922.jpg')"></div>
+  <div class="title">
+    <h3>Shopping Bourbon e Itaú Cinemas dão 30% de desconto nos ingressos em novembro; saiba mais!</h3>
+    <p></p>
+  </div>
+  <a href="/cinema/noticia/shopping-bourbon-e-itau-dao-desconto-nos-ingressos-de-cinema" title="Cinema: Shopping Bourbon e Itaú Cinemas dão 30% de desconto nos ingressos em novembro; saiba mais!"></a>
+  <i class="section-bgi-"><a href="/sao-paulo/">Cinema</a></i>
+</div>  </div>
+    <div class="item-1 col col-12 col-md-6 col-xl-4">
+    <div class="home-button section-border-">
+    <div class="image" style="background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2020/10/FEA/thumbnail/66318_w380h235_1602794782mostra-internacional-de-cinema.jpg')"></div>
+  <div class="title">
+    <h3>Saiba tudo sobre a 44ª Mostra Internacional de Cinema de São Paulo</h3>
+    <p></p>
+  </div>
+  <a href="/cinema/noticia/tudo-sobre-a-44-mostra-internacional-de-cinema-de-sao-paulo" title="Cinema: Saiba tudo sobre a 44ª Mostra Internacional de Cinema de São Paulo"></a>
+  <i class="section-bgi-"><a href="/sao-paulo/">Cinema</a></i>
+</div>  </div>
+    <div class="item-1 col col-12 col-md-6 col-xl-4">
+    <div class="home-button section-border-">
+    <div class="image" style="background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2020/10/FEA/thumbnail/66272_w380h235_1601675299capa-convencao-das-bruxas.jpg')"></div>
+  <div class="title">
+    <h3>Filme 'Convenção das Bruxas' ganha trailer e pôster em português; confira!</h3>
+    <p></p>
+  </div>
+  <a href="/cinema/noticia/trailer-filme-convencao-das-bruxas-2020" title="Cinema: Filme &#039;Convenção das Bruxas&#039; ganha trailer e pôster em português; confira!"></a>
+  <i class="section-bgi-"><a href="/sao-paulo/">Cinema</a></i>
+</div>  </div>
+    <div class="item-1 col col-12 col-md-6 col-xl-4">
+    <div class="home-button section-border-">
+    <div class="image" style="background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2020/09/FEA/thumbnail/66260_w380h235_1601488149e-tudo-verdade-festival.jpg')"></div>
+  <div class="title">
+    <h3>12 filmes imperdíveis do festival de documentários "É Tudo Verdade"</h3>
+    <p></p>
+  </div>
+  <a href="/cinema/noticia/filmes-imperdiveis-do-festival-e-tudo-verdade" title="Cinema: 12 filmes imperdíveis do festival de documentários &quot;É Tudo Verdade&quot;"></a>
+  <i class="section-bgi-"><a href="/sao-paulo/">Cinema</a></i>
+</div>  </div>
+    <div class="item-1 col col-12 col-md-6 col-xl-4">
+    <div class="home-button section-border-">
+    <div class="image" style="background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2020/08/FEA/thumbnail/66081_w380h235_1598561230capa-festivais-de-cinema-online-2020.jpg')"></div>
+  <div class="title">
+    <h3>10 festivais de cinema para ver online em 2020</h3>
+    <p></p>
+  </div>
+  <a href="/cinema/noticia/festivais-de-cinema-online-2020" title="Cinema: 10 festivais de cinema para ver online em 2020"></a>
+  <i class="section-bgi-"><a href="/sao-paulo/">Cinema</a></i>
+</div>  </div>
+    <div class="item-1 col col-12 col-md-6 col-xl-4">
+    <div class="home-button section-border-">
+    <div class="image" style="background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2020/08/FEA/thumbnail/66005_w380h235_1597160742acquamovie-230118-fredjordao-2270bx.jpg')"></div>
+  <div class="title">
+    <h3>5 motivos para conferir a 9ª edição da Mostra Ecofalante de Cinema</h3>
+    <p></p>
+  </div>
+  <a href="/cinema/galeria/mostra-ecofalante-de-cinema-2020-motivos-para-conferir" title="Cinema: 5 motivos para conferir a 9ª edição da Mostra Ecofalante de Cinema"></a>
+  <i class="section-bgi-"><a href="/sao-paulo/">Cinema</a></i>
+</div>  </div>
+      <div class="col-12">
+    <a href="/sao-paulo/busca?tipo=noticias&amp;canal=cinema" title="Ver todas">Ver todas <i class="fa fa-angle-right"></i></a>
+  </div>
+  </section>
+
+    </div>
+
+    <div class="w-100 d-block d-md-none"></div>
+<div class="col col-12 content-sidebar" id="content-sidebar">
+  <aside>
+    <section class="placement d-flex justify-content-center">
+      <div id="gds_box2"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Internas_vbox2',sizes: [300, 250],name: 'gds_box2',reloadable: false,inreadPosition: '',mapping: 'stickyMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200891,rubicon: '1108636',aol: '5097006',criteo: 2049,smart: 93413}});
+      </script>
+</div>    </section>
+
+        
+    <section id="truvidplace" class="mb-3"></section>
+
+    
+    <div class="sticky-holder" data-parent="#content-sidebar" data-target="#content-sticky" data-related="#content-sidebar > aside"></div>
+    <div class="sidebar-sticky" id="content-sticky">
+      <section class="placement d-flex justify-content-center">
+        <div id="gds_box3"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Internas_vbox3',sizes: [300, 250],name: 'gds_box3',reloadable: true,inreadPosition: '',mapping: 'stickyMapping2',noprebid: false,type: 'banner',bids: {appNexus: 16200894,rubicon: '1108636',aol: '5097004',criteo: 2049,smart: 93414}});
+      </script>
+</div>      </section>
+
+      
+          </div>
+
+  </aside>
+</div>  </div>
+
+</article>
+
+<div class="placement d-flex justify-content-center">
+  <div id="gds_fixedfooter"  class=" " data-prebid="true">
+  <script>
+          gdsAdUnit({dfp: '/53180840/GDSNew_Multi' + dfpNoGA + '_Footer',sizes: [320, 50],name: 'gds_fixedfooter',reloadable: false,inreadPosition: '',mapping: 'footerMapping',noprebid: false,type: 'banner',bids: {appNexus: 16200904,rubicon: '1108636',aol: '5097008',criteo: 2049,smart: 93415}});
+      </script>
+</div></div>
+</main>
+
+<footer>
+<div class="container-fluid">
+  <div class="links row">
+    <ul class="col-6 col-sm-4 col-md-2">
+      <li class="title"><a href="/sao-paulo/gastronomia" class="section-1">Gastronomia</a></li>
+      <li><a href="/sao-paulo/restaurantes">Restaurantes</a></li>
+      <li><a href="/sao-paulo/receitas">Receitas</a></li>
+
+      <li class="title"><a href="/sao-paulo/noite" class="section-12">Noite</a></li>
+      <li><a href="/sao-paulo/bares">Bares</a></li>
+          </ul>
+
+    <ul class="col-6 col-sm-4 col-md-2">
+      <li class="title">Agenda da semana</li>
+      <li><a href="/sao-paulo/agenda">Programação completa</a></li>
+
+      <li class="title"><a href="/sao-paulo/cinema" class="section-6">Cinema</a></li>
+      <li><a href="/sao-paulo/cinema/filmes-em-estreia">Estreias da semana</a></li>
+      <li><a href="/sao-paulo/cinema/filmes-em-cartaz">Filmes em cartaz</a></li>
+    </ul>
+    <div class="clear hidden-sm hidden-md hidden-lg"></div>
+    <ul class="col-6 col-sm-4 col-md-2">
+      <li class="title"><a href="/sao-paulo/estilo-de-vida" class="section-2">Estilo de vida</a></li>
+      <li><a href="/sao-paulo/bem-estar">Bem estar</a></li>
+      <li><a href="/sao-paulo/moda-e-beleza">Moda e beleza</a></li>
+      <li><a href="/sao-paulo/comportamento">Comportamento</a></li>
+
+    </ul>
+    <div class="clear hidden-xs hidden-md hidden-lg"></div>
+    <ul class="col-6 col-sm-4 col-md-2">
+      <li class="title"><a href="/sao-paulo/tv-e-famosos" class="section-9">TV e famosos</a></li>
+      <li><a href="/sao-paulo/novelas">Novelas</a></li>
+      <li><a href="/sao-paulo/filmes-séries">Filmes e séries</a></li>
+      <li><a href="/sao-paulo/reality-shows">Reality shows</a></li>
+      <li><a href="/sao-paulo/famosos">Famosos</a></li>
+
+    </ul>
+    <div class="clear hidden-sm hidden-md hidden-lg"></div>
+    <ul class="col-6 col-sm-4 col-md-2">
+      <li class="title">Mais canais</li>
+      <li><a href="/sao-paulo/artes-teatro">Artes e teatro</a></li>
+            <li><a href="/sao-paulo/filhos">Filhos</a></li>
+      <li><a href="/sao-paulo/shows">Shows</a></li>
+      <li><a href="/sao-paulo/turismo">Turismo</a></li>
+      <li><a href="/sao-paulo/na-cidade">Na Cidade</a></li>    </ul>
+
+    <ul class="col-6 col-sm-4 col-md-2">
+      <li class="title">Guia da semana</li>
+      <li><a href="/quem-somos">Sobre nós</a></li>
+      <li><a href="/anuncie">Anuncie</a></li>
+      <li><a id="reportLink" href="/comunicar-erro">Comunicar Erro</a></li>
+      <li><a href="/contato">Contato</a></li>
+      <li><a href="/politica-de-privacidade">Política de Privacidade e Termos de Uso</a></li>
+      <li class="title">Registrar</li>
+      <li><a href="/registrar/estabelecimento">Estabelecimento</a></li>
+      <li><a href="/registrar/evento">Evento</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="global-bottom">
+    <p>© 2003 - 2020 Guia da semana. Todos os direitos reservados.</p>
+</div>
+</footer>
+
+<div id="backTop"><a href="#" title="Voltar ao topo"><i class="far fa-arrow-circle-o-up fa-fw fa-3x"></i></a></div>
+<form id="pageReport" name="pageReport" action="/comunicar-erro" method="post">
+<input type="hidden" id="urlReport" name="urlReport" />
+</form>
+
+<script>
+var mainPath = '/';
+var basePath = '/sao-paulo/';
+var currentCity = '4';
+var jsDomains = ['www.guiadasemana.com.br','https://www.guiadasemana.com.br', 'https://www.guiadasemana.com.br'];
+
+setTimeout(function() { gdsRunBids(); }, 20);
+</script>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.guiadasemana.com.br/c/v2.113.min.css?v=20200928124546" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+<script type="text/javascript" src="https://www.guiadasemana.com.br/j/v2.109.min.js?v=20200928130835"></script>
+
+
+
+<!-- Inicialização One Signal -->
+
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+
+
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(["init", {
+    appId: "2afb34cf-70d4-4c70-a34c-93fb158fb9bb",
+    autoRegister: false,
+    notifyButton: {
+      enable: false, //true,
+      prenotify: true,
+      showCredit: false,
+      position: 'bottom-left',
+      text: {
+          'tip.state.unsubscribed': 'Receba notificações neste dispositivo',
+          'tip.state.subscribed': "Você já está cadastrado para receber notificações",
+          'tip.state.blocked': "Você optou por não receber mais notificações",
+          'message.prenotify': 'Clique aqui para receber notificações neste dispositivo',
+          'message.action.subscribed': "Obrigado por se cadastrar!",
+          'message.action.resubscribed': "Você está cadastrado para receber notificações",
+          'message.action.unsubscribed': "Você não irá receber notificações novamente",
+          'dialog.main.title': 'Gerenciar notificações deste site',
+          'dialog.main.button.subscribe': 'Cadastrar',
+          'dialog.main.button.unsubscribe': 'Remover',
+          'dialog.blocked.title': 'Voltar a receber notificações',
+          'dialog.blocked.message': "Por favor, siga estas instruções:"
+      }
+    },
+    promptOptions: {
+      actionMessage: 'Gostou desta matéria? Que tal receber as novidades do Guia da Semana?',
+      acceptButtonText: "Claro que sim!",
+      cancelButtonText: "Não, obrigado",
+      customlink: {
+        enabled: true, /* Required to use the Custom Link */
+        style: "button", /* Has value of 'button' or 'link' */
+        size: "medium", /* One of 'small', 'medium', or 'large' */
+        color: {
+          button: '#fa7073', /* Color of the button background if style = "button" */
+          text: '#FFFFFF', /* Color of the prompt's text */
+        },
+        text: {
+          subscribe: "Receber notificações", /* Prompt's text when not subscribed */
+          unsubscribe: "Parar notificações", /* Prompt's text when subscribed */
+          explanation: "", /* Optional text appearing before the prompt button */
+        },
+        unsubscribeEnabled: true, /* Controls whether the prompt is visible after subscription */
+      }
+    },
+    welcomeNotification: {
+        "title": "Bem-vindo",
+        "message": "Obrigado por se cadastrar para receber nossas novidades!"
+    },
+    safari_web_id: 'web.onesignal.auto.014ea808-90d0-46f9-a566-af81aa1c1278'
+  }]);
+</script>
+
+
+<!-- Cookie consent -->
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "rgba(15, 56, 121, 0.87)",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#e50051",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "Este site utiliza cookies para entregar uma melhor experiência durante a navegação.",
+    "dismiss": "Tudo bem!",
+    "link": "Saiba mais",
+    "href": "https://www.guiadasemana.com.br/politica-de-privacidade"
+  }
+})});
+</script>
+
+
+<div class="card closed" id="premiumInvite">
+  <div class="card-body p-2">
+    <div class="row">
+      <div class="col-12 col-lg-4 col-xl-3">
+        <div class="premium-logo float-left mt-1 mr-2 mr-lg-3 ml-3 ml-lg-0">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-user"></i>
+        </div>
+        <h5 class="card-title mt-1 text-center">Guia da Semana Premium</h5>
+        <h6 class="card-subtitle text-muted text-center">Nosso conteúdo na melhor forma!</h6>
+        <div class="clearfix mb-3 mb-lg-0"></div>
+      </div>
+      <div class="col-12 col-lg-8 col-xl-9">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <p>Aproveite o Guia da Semana de forma mais rápida, sem banners ou publicidade digital!</p>
+          </div>
+          <div class="col-6 col-lg-2 order-lg-2">
+            <a href="#" class="btn btn-sm btn-close">Agora não</a>
+          </div>
+          <div class="col-6 col-lg-2 text-right order-lg-1">
+            <a href="/premium" class="btn btn-sm btn-primary">Saiba mais!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<noscript>
+  <style>
+    #loading{display: none;}
+  </style>
+</noscript></body>
+</html><!-- Request processing time: 1,2184200286865 seconds --><!-- Page Generated: Tue, 10 Nov 2020 03:39:09 -0300 by  |  --><!-- Page Served: Tue, 10 Nov 2020 03:39:09 -0300 by  |  -->
