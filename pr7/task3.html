@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+            width: min-content;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color:rgb(53, 86, 92);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 200px;
+            border-radius: 6px;
+            border: 1px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            width: 100%;
+            margin-top: 25vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #tf{
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            border: 1px solid white;
+            width: 250px;
+            height: 100px;
+            font-size: small;
+            padding-left: 4px;
+            padding-top: 4px;
+            overflow:auto;
+        }
+
+        #pic{
+            border-radius: 6px;
+            border: 1px solid white;
+            width: auto;
+            height: auto;
+            max-width: 250px;
+        }
+
+
+    </style>
+
+    <script>
+        let clicked = false;
+        var counter = 0;
+        var pics = [
+                        '/my presious/img/allcast1.jpg',
+                        '/my presious/img/allcast2.jpg',
+                        '/my presious/img/woodey-n-jessey.jpg',
+                        '/my presious/img/buzz-n-jessie.jpg',
+                        '/my presious/img/jessie-n-buzz.jpg',
+                        '/my presious/img/instagram.svg',
+                        '/my presious/img/toy-story3.jpeg'
+                    ];
+        var array = [
+                'viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit',
+                'dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat',
+                'faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit',
+                'aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis',
+                'augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc',
+                'orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla',
+                'donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus'
+            ];
+        function randmess(){
+                    var tf = document.getElementById("tf");
+                    tf.appendChild(document.createTextNode('start message'));
+                };
+
+        document.addEventListener('click', function(e){
+            if( e.target.id != 'tf'){
+                var tf = document.getElementById("tf");
+                tf.innerHTML = "";
+                tf.appendChild(document.createTextNode('start message'));
+            } else{
+                var tf = document.getElementById("tf");
+                tf.innerHTML = "";
+                tf.appendChild(document.createTextNode(array[Math.floor(Math.random()*7)]));
+            }
+
+            if(e.target.id == 'btn' && !clicked){
+                clicked = true;
+                document.getElementById('btn').style.color = "black";
+            }
+            if(e.target.id == 'btn2'){
+                clicked = false;
+                document.getElementById('btn').style.color = "white";
+            }
+
+            if(e.target.id == 'counter'){
+                document.getElementById('counter').innerHTML = ++counter;
+
+            } 
+        }
+        )
+
+        
+        
+
+    </script>
+</head>
+<body onload="randmess()">
+
+
+<div class="center">
+    <div id="tf"> 
+    </div>
+
+    <br><br><br>
+
+    <div>
+        <button id='btn' >btn1</button> 
+        <button id='btn2'>btn2</button>
+    </div>
+
+
+    <br><br><br>
+
+    <div>
+        <button id='counter' >0</button> 
+    </div>
+</div>
+    
+    
+</body>
+</html>

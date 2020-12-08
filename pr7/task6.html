@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 6</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+            width: min-content;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color:rgb(92, 78, 53);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 200px;
+            border-radius: 6px;
+            border: 1px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            width: 100%;
+            margin-top: 25vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #text{
+            font-style:normal;
+        }
+        a{
+            color: rgb(0, 0, 114);
+        }
+    
+
+    </style>
+
+    <script>
+        function randmess(){
+
+            var showlinks = document.getElementById('changetext');
+            showlinks.addEventListener('click', function(){
+            var one = document.getElementById("1");
+            var two = document.getElementById("2");
+            var three = document.getElementById("3");
+            let text = one.textContent;
+            one.textContent = three.textContent;
+            three.textContent = text;
+        });
+
+
+            var showlinks = document.getElementById('showlinks');
+            showlinks.addEventListener('click', function(){
+            var nodes = document.getElementsByTagName("p");
+            console.log(nodes);
+            for(let i = 0; i < nodes.length; i++){
+                nodes[i].textContent = i + '. ' + nodes[i].textContent;
+            }
+
+                
+            });
+        };
+
+    </script>
+</head>
+<body onload="randmess()">
+
+
+<div class="center">
+
+    <div>
+        <p id='1'>TUCTUCTUC</p> 
+        <p id='2'>BLABLABLA</p> 
+        <p id='3'>tuctuctuc</p> 
+        <button id="changetext" >changetext6.1</button>
+
+
+
+
+        <br><br><br><br>
+        <ul id="ul">
+            <p>BLABLABLA</p> 
+            <p>TUCTUCTUC</p> 
+            <p>TICTACTOC</p> 
+            <p>BLABLABLA</p> 
+            <p>TUCTUCTUC</p> 
+            <p>BLABLABLA</p> 
+            <p>TICTACTOC</p> 
+            <button id="showlinks" >showindex6.2</button>
+        </ul>
+
+        
+    </div>
+    
+    
+</div>
+    
+    
+</body>
+</html>

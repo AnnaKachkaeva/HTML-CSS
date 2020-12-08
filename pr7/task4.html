@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30%;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+            width: min-content;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color:rgb(75, 92, 53);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 200px;
+            border-radius: 6px;
+            border: 1px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            width: 100%;
+            margin-top: 25vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #tf{
+            display: block;
+            color: white;
+            background-color: black;
+            border-radius: 6px;
+            border: 1px solid white;
+            width: 250px;
+            height: 100px;
+            font-size: small;
+            padding-left: 4px;
+            padding-top: 4px;
+            overflow:auto;
+        }
+
+    </style>
+
+    <script>
+        var colors = [
+                        'green',
+                        'yellow',
+                        'red',
+                        'white',
+                        'purple',
+                        'blue',
+                        'pink'
+                    ]
+        function randmess(){
+            var array = [
+                'viverra tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit',
+                'dui accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat',
+                'faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit',
+                'aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis',
+                'augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc',
+                'orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla',
+                'donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus'
+            ];
+
+            
+
+            
+
+            var tf = document.getElementById("tf");
+            tf.appendChild(document.createTextNode(array[Math.floor(Math.random()*7)]));
+
+
+            var hide = document.getElementById('hide');
+            hide.addEventListener('click', function(){
+                document.getElementById('tf').style.display = 'none';
+            });
+
+            var show = document.getElementById('show');
+            show.addEventListener('click', function(){
+                document.getElementById('tf').style.display = 'block';
+            });
+
+
+        };
+
+        function foo() {
+            var message = document.getElementById('input').value;
+            document.getElementById('input').value = '';
+
+            var tf = document.getElementById("tf");
+            tf.innerHTML = "";
+            tf.appendChild(document.createTextNode(message));
+            tf.style.color = colors[Math.floor(Math.random()*6)];
+
+            if(tf.style.borderRadius == '12px'){
+                tf.style.borderRadius = '0px';
+            } else {
+                tf.style.borderRadius = '12px';
+            }
+        }
+
+        
+
+    </script>
+</head>
+<body onload="randmess()">
+
+
+<div class="center">
+
+<div>
+    <button id="hide">hide</button>  
+    <button id="show">show</button>
+</div>
+    <br>
+    <input type="text" id='input'>
+    <button onclick="foo()">change</button>
+    <br>
+    <div id="tf">
+    </div>
+
+    
+    
+</div>
+    
+    
+</body>
+</html>
