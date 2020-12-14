@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 11</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            background-color: transparent;
+            border-radius: 6px;
+            border: 1px solid white;
+            margin-top: 5px;
+        }
+
+        body {
+            width: 100%;
+            background-color:rgb(66, 122, 106);      
+        }
+        
+        br{
+            margin: 12px;
+        }
+        .center{
+            width: 100%;
+            margin-top: 25vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .message{
+            width: 540px;
+            border-radius: 3px;
+            background-color: white;
+            box-shadow: 0px 6px 10px rgba(31, 0, 0, 0.473);
+        }
+        .carusel{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-areas: 'l img r';
+        }
+        .Lbnt{
+            align-self: center;
+            grid-area: l;
+        }
+        .image{
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+            height: 200px;
+            width: 350px;
+            grid-area: img;
+        }
+        .Rbtn{
+            grid-area: r;
+        }
+        .mySlides{
+            width: 350px;
+        }
+        
+    </style>
+    <script>
+        function first(){
+            var left = document.getElementById('left');
+            var img = document.getElementById('img');
+            left.addEventListener("click", function() {
+                img.scrollLeft -= 350;
+            });
+
+            var right = document.getElementById('right');
+            var img = document.getElementById('img');
+            right.addEventListener("click", function() {
+                img.scrollLeft += 350;
+            });
+
+        }
+        
+    </script>
+</head>
+<body onload="first();">
+
+    <div class="center">
+        <div class="carusel">
+        <div id="left" class="Lbtn"><</div>
+        <div id='img' class="image"><img class="mySlides" src="/my presious/img/allcast1.jpg"   alt="">
+            <img class="mySlides" src="/my presious/img/buzz-n-jessie.jpg"   alt="">
+            <img class="mySlides" src="/my presious/img/jessie-n-buzz.jpg"   alt="">
+            <img class="mySlides" src="/my presious/img/woodey-n-jessey.jpg"  alt="">
+            <img class="mySlides" src="/my presious/img/forky3.jpg"   alt=""></div>
+        <div id="right" class="Rbtn">></div>
+    </div>
+
+    </div>
+    
+</body>
+</html>

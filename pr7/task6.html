@@ -59,6 +59,9 @@
         a{
             color: rgb(0, 0, 114);
         }
+        ul li{
+            list-style-type: none;
+        }
     
 
     </style>
@@ -79,10 +82,10 @@
 
             var showlinks = document.getElementById('showlinks');
             showlinks.addEventListener('click', function(){
-            var nodes = document.getElementsByTagName("p");
+            var nodes = document.getElementsByTagName("li");
             console.log(nodes);
             for(let i = 0; i < nodes.length; i++){
-                nodes[i].textContent = i + '. ' + nodes[i].textContent;
+                nodes[i].textContent = i+1 + '. ' + nodes[i].textContent;
             }
 
                 
@@ -106,14 +109,14 @@
 
 
         <br><br><br><br>
-        <ul id="ul">
-            <p>BLABLABLA</p> 
-            <p>TUCTUCTUC</p> 
-            <p>TICTACTOC</p> 
-            <p>BLABLABLA</p> 
-            <p>TUCTUCTUC</p> 
-            <p>BLABLABLA</p> 
-            <p>TICTACTOC</p> 
+        <ul id="ul"> 
+            <li>BLABLABLA</li> 
+            <li>TUCTUCTUC</li> 
+            <li>TICTACTOC</li> 
+            <li>BLABLABLA</li> 
+            <li>TUCTUCTUC</li> 
+            <li>BLABLABLA</li> 
+            <li>TICTACTOC</li> 
             <button id="showlinks" >showindex6.2</button>
         </ul>
 

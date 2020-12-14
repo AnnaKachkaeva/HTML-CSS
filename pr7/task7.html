@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 7</title>
+    <style>
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+            border-radius: 12px;
+            background-color: transparent;
+            width: max-content;
+        }
+
+        button:hover {
+            background-color: rgba(82, 82, 82, 0.349);
+        }
+
+        body {
+            background-color:rgb(53, 92, 92);      
+        }
+        input{
+            text-align: center;
+            color: white;
+            width: 200px;
+            border-radius: 6px;
+            border: 1px solid rgb(180, 180, 180);
+            background-color: transparent;
+            height: max-content;
+            font-size: x-large;
+        }
+        br{
+            margin: 12px;
+        }
+        .center{
+            width: 100%;
+            margin-top: 25vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #text{
+            font-style:normal;
+        }
+        a{
+            color: rgb(0, 0, 114);
+        }
+
+        .center div{
+            height: 100vh;
+        }
+    
+
+    </style>
+
+    <script>
+        var current = 0;
+        var timer1;
+        var timer2;
+        var current2 = 0;
+
+    function myFunction(){
+        clearInterval(timer1);
+        current = 0;
+        var showtime = document.getElementById("timer1");
+        showtime.innerHTML = current;
+        timer1 = setInterval(settime, 1000);
+    };
+
+    function settime(){
+        current ++;
+        var showtime = document.getElementById("timer1");
+        showtime.innerHTML = current;
+    }
+
+    function start(){
+        clearInterval(timer2);
+        var showtime = document.getElementById("timer2");
+        showtime.innerHTML = current2;
+        timer2 = setInterval(settime2, 1000);
+    };
+
+    function settime2(){
+        current2 ++;
+        var showtime = document.getElementById("timer2");
+        showtime.innerHTML = current2;
+    }
+
+    function stop(){
+        clearInterval(timer2);
+    }
+
+
+
+
+    function Func3() { setInterval( showDate, 100); }
+
+    var psec = new Date().getSeconds();
+    function showDate(){
+        let now = new Date();
+        let hour = now.getHours();
+        let min = now.getMinutes();
+        let sec = now.getSeconds();
+        if(psec != now.getSeconds()){
+            sound();
+            psec = now.getSeconds();
+        } 
+        var showtime = document.getElementById("timer3");
+        showtime.innerHTML = hour +':' +min +':'+sec;
+    }
+    var audio = new Audio('tick.mp3');
+    function sound(){
+        audio.play();
+    }
+    function soundOFF(){
+        audio = new Audio('');
+    }
+    function soundONN(){
+        audio = new Audio('tick.mp3');
+        audio.play();
+    }
+
+    function Func6() { setInterval( showDate6, 100); }
+    function showDate6(){
+        let now = new Date();
+        let hour = 24 - now.getHours();
+        let min = 60 - now.getMinutes();
+        let sec = 60 - now.getSeconds();
+        if(psec != now.getSeconds()){
+            sound();
+            psec = now.getSeconds();
+        } 
+        var showtime = document.getElementById("timer6");
+        showtime.innerHTML = hour +':' +min +':'+sec;
+    }    
+
+
+
+    var myIndex = 0;
+    function Func74() { setInterval( carousel, 2000); }
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000);
+    }
+
+    var fun5;
+    function Func5() { 
+        clearInterval(fun5);
+        fun5 = setInterval(carousel1, 1000);
+    }
+    function Func5rip(){
+        clearInterval(fun5);
+    }
+    function carousel1(){
+        var i;
+        var x = document.getElementsByClassName("mySlides1");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";
+    }
+    </script>
+</head>
+<body onload="Func74(), Func6(), Func3(), Func5()">
+<div class="center">
+    <div>
+        <p id='timer1'>0</p> 
+        <button onclick="myFunction();">timer 7.1</button>
+    </div>
+
+
+    <div>
+        <p id='timer2'>0</p> 
+        <button onclick="start();">start 7.2</button> 
+        <button onclick="stop();">stop 7.2</button>
+    </div>
+
+
+    <div>
+        <p id='timer3'></p> 
+        <button  onclick="soundONN();">soundON 7.3</button> 
+        <button  onclick="soundOFF();">soundOFF 7.3</button>
+    </div>
+
+
+
+    <div>
+        <div style="width: 100%; max-height: 200px;">
+            <img class="mySlides" src="/my presious/img/allcast1.jpg" height="200px"  alt="">
+            <img class="mySlides" src="/my presious/img/buzz-n-jessie.jpg"  height="200px" alt="">
+            <img class="mySlides" src="/my presious/img/jessie-n-buzz.jpg"  height="200px" alt="">
+            <img class="mySlides" src="/my presious/img/woodey-n-jessey.jpg"  height="200px" alt="">
+            <img class="mySlides" src="/my presious/img/forky3.jpg"  height="200px" alt="">
+        </div>
+    </div>
+
+
+
+    <div>
+        <div style="width: 100%; max-height: 200px;">
+            <img class="mySlides1" src="/my presious/img/allcast1.jpg" height="200px"  alt="">
+            <img class="mySlides1" src="/my presious/img/buzz-n-jessie.jpg"  height="200px" alt="">
+            <img class="mySlides1" src="/my presious/img/jessie-n-buzz.jpg"  height="200px" alt="">
+            <img class="mySlides1" src="/my presious/img/woodey-n-jessey.jpg"  height="200px" alt="">
+            <img class="mySlides1" src="/my presious/img/forky3.jpg"  height="200px" alt="">
+        </div>
+        <button onclick="Func5()" >on</button><button onclick="Func5rip();">off</button>
+    </div>
+
+
+    <div>
+        <p id='timer6'></p> 
+        <button onclick="soundONN();">soundON 7.6</button> 
+    </div>
+
+
+</div> 
+</body>
+</html>
+
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 12</title>
+    <style>
+
+    .tree span:hover {
+      font-weight: bold;
+    }
+    .tree span {
+      cursor: pointer;
+    }
+    html {
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+        color: white;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color:rgb(150, 102, 40);      
+    }
+    .center{
+        margin-left: 15vw;
+    }
+    </style>
+</head>
+<body>
+    <ul class="tree center" id="tree">
+    <li>main list
+      <ul>
+        <li>sublist
+          <ul>
+            <li>element</li>
+            <li>element</li>
+            <li>element</li>
+            <li>element</li>
+          </ul>
+        </li>
+        <li>sublist
+          <ul>
+            <li>element
+                <ul>
+                    <li> final element</li>
+                </ul>
+            </li>
+            <li>element</li>
+            <li>element</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>main list
+      <ul>
+        <li>sublist
+          <ul>
+            <li>element</li>
+            <li>element</li>
+          </ul>
+        </li>
+        <li>sublist
+          <ul>
+            <li>element</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <script>
+    for (let li of tree.querySelectorAll('li')) {
+      let span = document.createElement('span');
+      li.prepend(span);
+      span.append(span.nextSibling); }
+    tree.onclick = function(event) {
+      if (event.target.tagName != 'SPAN') {
+        return;
+      }
+      let childrenContainer = event.target.parentNode.querySelector('ul');
+      if (!childrenContainer) return; 
+      childrenContainer.hidden = !childrenContainer.hidden;
+    }
+  </script>
+</body>
+</html>
+
+
+
+

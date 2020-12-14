@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 15</title>
+    <style>
+    body{
+        background-color: rgb(70, 49, 90);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+        color: white;
+    }
+    .horizontal-scroll-wrapper {
+        margin-left: 20vw;
+        width: 60vw;
+        margin-top: 25vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .horizontal-scroll-wrapper>img {
+        cursor: pointer;
+        height: 40vw;
+        max-height: 170px;
+        border-radius: 6px;
+    }
+    .popup {
+        visibility: hidden;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.555);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup img {
+        max-width: 90vw;
+        max-height: 85vh;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="horizontal-scroll-wrapper">
+        <img  src="/my presious/img/buzz-n-jessie.jpg"/>
+        <img  src="/my presious/img/jessie3.jpg"/>
+        <img  src="/my presious/img/buzz1.jpg"/>
+        <img  src="/my presious/img/jessie-n-buzz.jpg"/>
+        <img  src="/my presious/img/jessie1.jpg"/>
+        <img  src="/my presious/img/jessie2.jpg"/>       
+        <img  src="/my presious/img/jessie4.jpg"/>
+        <img  src="/my presious/img/allcast1.jpg"/>
+        <img  src="/my presious/img/allcast2.jpg"/>
+        <img  src="/my presious/img/woodey-n-jessey.jpg"/>
+    </div>
+
+    <div id="myPopup" class="popup">
+    </div>
+</body>
+
+<script>
+    document.onclick = function(event){
+        if(event.target.id == 'myPopup' || event.target.id == 'img') {
+            small();
+            return;
+        }
+        console.log(event.target.id);
+        var src = event.target.getAttribute('src');
+        var popup = document.getElementById("myPopup");
+        popup.style.visibility = "visible";
+
+        var img = document.createElement("IMG");
+        img.src = src;
+        img.id = "img";
+
+        popup.appendChild(img);
+    }
+
+
+    function small(){
+        var popup = document.getElementById("myPopup");
+        var img = document.getElementById('img');
+        popup.removeChild(img);
+        popup.style.visibility = "hidden";
+    }
+    </script>
+</html>

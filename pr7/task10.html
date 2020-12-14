@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 10</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            min-height: 100%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            background-color: transparent;
+            border-radius: 6px;
+            border: 1px solid white;
+            margin-top: 5px;
+        }
+
+        body {
+            width: 100%;
+            background-color:rgb(66, 122, 106);      
+        }
+        
+        br{
+            margin: 12px;
+        }
+        .center{
+            width: 100%;
+            margin-top: 15vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .message{
+            width: 540px;
+            border-radius: 3px;
+            background-color: white;
+            box-shadow: 0px 6px 10px rgba(31, 0, 0, 0.473);
+        }
+        .messagehead{
+            background-color: rgb(42, 42, 46);
+            padding: 2px;
+            padding-left: 10px;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            display: grid;
+            grid-template-columns: auto 35px;
+            grid-template-areas: 'some mesx';
+        }
+        .some{
+            grid-area: some;
+        }
+        .mesX{
+            grid-area: 'mesx';
+            display: flex;
+            justify-self: center;
+            align-self: center;
+            height: 15px;
+            width: 15px;
+            border-radius: 100%;
+            background-color: rgb(255, 62, 72);
+        }
+        .mesText{
+            padding-left: 10px;
+            font-size: large;
+            color: black;
+        }
+    </style>
+    <script>
+        function first(){
+            let messages = document.querySelectorAll('.messagehead');
+
+        for(let mes of messages){
+            mes.insertAdjacentHTML('afterbegin', '<div class="mesX"> </div>' );
+            mes.firstChild.onclick = () => mes.parentElement.remove();
+        }
+        }
+        
+    </script>
+</head>
+<body onload="first();">
+
+    <div class="center">
+        <div class="message">
+            <div class="messagehead">
+                <div class="some">message1</div>
+            </div>
+            <div class="mesText">message text message text message textmessage text</div>
+        </div>
+
+        <br>
+
+        <div class="message">
+            <div class="messagehead">
+                <div class="some">message2</div>
+            </div>
+            <div class="mesText">message text message text message text message text message text message text message textmessage text</div>
+        </div>
+
+        <br>
+
+        <div class="message">
+            <div class="messagehead">
+                <div class="some">message3</div>
+            </div>
+            <div class="mesText">message text message text message mes mes mes textmessage text</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

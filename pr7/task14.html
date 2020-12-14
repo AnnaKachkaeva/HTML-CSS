@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 14</title>
+    <style>
+    body{
+        background-color: rgb(79, 90, 49);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: xx-large;
+        color: white;
+    }
+    .horizontal-scroll-wrapper {
+        margin-left: 20vw;
+        width: 60vw;
+        margin-top: 35vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .horizontal-scroll-wrapper>img {
+        cursor: pointer;
+        height: 40vw;
+        max-height: 170px;
+        border-radius: 6px;
+    }
+    .popup {
+        visibility: hidden;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.555);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup img {
+        max-width: 90vw;
+        max-height: 85vh;
+    }
+    .center{
+        margin-top: 20vh;
+        margin-left: 15vw;
+    }
+    a:link, a:visited {
+        color: rgb(255, 255, 255);
+    }
+    </style>
+    
+</head>
+<body>
+        <ul class='center'>
+            <li><a href="https://www.google.com">www.google.com</a></li>
+            <li><a href="https://twitter.com/Twitter">twitter.com</a></li>
+            <li><a href="https://www.youtube.com">www.youtube.com</a></li>
+            <li><a href="https://www.instagram.com/ulitka__li_/">ww.instagram.com</a></li>
+        </ul>
+
+    
+</body>
+
+<script>
+    document.onclick = function(event){
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        let doit = confirm(`go to ${event.target.textContent}?`);
+        if(doit){
+            window.location.href = event.target.href;
+        }else{
+            return false;
+        }
+    }
+    </script>
+</html>
