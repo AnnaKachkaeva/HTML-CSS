@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>task 1</title>
+<style>
+    html, body{
+        width: 100%;
+        background-color: rgb(99, 106, 126);
+    }
+    #car {
+        margin-top: 15vh;
+        height: auto;
+        width: 10vw;
+        position: relative;
+        cursor: pointer;
+        margin-left: 85vw;
+    }
+</style>
+</head>
+<body>
+<img id="car" src="car.png">
+<script>
+car.onclick = function() {
+let start = Date.now();
+let timer = setInterval(function() {
+let timePassed = Date.now() - start;
+car.style.left = -(timePassed / 3.5) + 'px';
+if (timePassed > 2000) clearInterval(timer);
+}, 20);
+}
+</script>
+</body>
+</html>
